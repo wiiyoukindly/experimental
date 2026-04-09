@@ -34,15 +34,17 @@
 | **Nevar / Νέβαρ** (React noir game) | Playable MVP (4 σκηνές, dialogue, map) | #3 Indie narrative game, #4 Visual novel, #5 Interactive fiction |
 | **Seven Echoes covers & art** (cover, hardcover, paperback) | Final | Κάθε base που χρειάζεται visual identity |
 | **Project bible + voice guide** | Complete | Consistency για κάθε Seven Echoes spinoff |
-| **Replit apps portfolio** (ThesPlan, Book Generation, AniRec, weight-game, MD2, κ.ά.) | Tech foundation | Tech bases (#3-#5, #10-#12) |
+| **Replit apps portfolio** (ThesPlan, Book Generation, AniRec, weight-game, MD2, κ.ά.) | Tech foundation | Tech bases (#3-#5, #10-#11) |
 | **Stack comfort**: React, TS, Vite, Zustand, Drizzle, Tailwind, Framer Motion, Web Audio API | Proven στο ThesPlan/Nevar | Κάθε web-based base |
 | **Bilingual ability** (GR + EN) | Native | Διπλή αγορά σε κάθε base |
 
 ---
 
-## GROUP 1 — CREATIVE BASES (#1–#12)
+## GROUP 1 — CREATIVE / EXPRESSION BASES (#1–#12)
 
 Κάθε base έχει ίδια δομή: `What → Tools → Realistic Revenue → Success Example → Effort → Fit → Seven Echoes tie-in`.
+
+> **Σημείωση:** Οι περισσότερες bases εδώ είναι narrative/artistic. Το #10 (Developer tools) είναι tool-flavored outlier που κρατείται σε αυτό το group για historical grouping reasons — δείτε τη δική του section για disclaimer.
 
 ### BASE #1 — Self-published fiction (novels, novellas)
 - **What:** Γράφεις και εκδίδεις σε KDP + Draft2Digital (Kobo/Apple/Smashwords).
@@ -125,6 +127,8 @@
 - **Seven Echoes tie-in:** **Εξαιρετικό** — μπορείς να κάνεις motion comic **adaptation** κεφαλαίων του Seven Echoes. YouTube channel ως marketing funnel για book/game/audiobook. Άμεση μετατροπή υπάρχοντος IP σε νέο medium.
 
 ### BASE #10 — Developer tools / VS Code extensions / Cursor plugins
+> ⚠️ **Tool-flavored outlier** — αυτή η base είναι utility, όχι narrative/artistic. Κρατείται στο Group 1 για να μη σπάσουν τα cross-references (#3-#5, #10-#11 κλπ.), αλλά conceptually ανήκει πιο κοντά στο Group 2. Η αρίθμηση παραμένει.
+
 - **What:** Productivity tools για προγραμματιστές. Marketplace distribution.
 - **Tools:** TypeScript, VS Code Extension API, Cursor plugin API.
 - **Realistic revenue:** Freemium με Pro tier €5-€20/μήνα. Top: Cursor $500M+ ARR. Μέσος niche extension: $500-$5K/μήνα αν nail σωστό pain point.
@@ -155,7 +159,7 @@
 
 ## GROUP 2 — UTILITY / AI / APP BASES (#13–#20)
 
-Ίδια δομή. Εδώ ο Seven Echoes tie-in είναι συνήθως χαμηλός ή zero — αυτές είναι "products", όχι "stories". Αλλά ταιριάζουν στο profile σου επειδή ΑΙ + προγραμματισμός + useful apps.
+Ίδια δομή. Εδώ ο Seven Echoes tie-in είναι συνήθως πιο χαμηλός από το Group 1, με εξαίρεση #16 (Desktop app ως writers' companion) και #19 (AI-native creative tool με dogfooding) — αυτές είναι "products", όχι "stories". Αλλά ταιριάζουν στο profile σου επειδή ΑΙ + προγραμματισμός + useful apps.
 
 ### BASE #13 — AI-powered mobile apps (subscription)
 - **What:** iOS/Android apps με AI backbone, subscription model. Π.χ. AI fitness coach, AI journaling, AI language learning, AI meal planner, AI habit tracker με coach.
@@ -172,7 +176,7 @@
 - **Realistic revenue:** Solo devs γράφουν $500-$130K/μήνα εύρος. Top: $130K/μήνα με ~10K subscribers (Extension Radar 2026). Median παραμένει $200-$2K/μήνα.
 - **Success example:** S-Hub (Japanese solo dev, 17 extensions portfolio), AI Chat Organizer, TabFlow AI. Ο developer που έκανε 17 extensions είναι το σωστό template.
 - **Effort / unit:** Single-feature extension MVP = 30-80 ώρες. Ship frequently, portfolio approach.
-- **Fit για σένα:** **5/5**. Ταιριάζει τέλεια με το profile σου: προγραμματισμός, apps, AI, χρήσιμο, άσχετο με τη ΘΕΣγη. Low risk (portfolio approach), high upside, fast shipping cycle.
+- **Fit για σένα:** **5/5**. Ταιριάζει τέλεια με το profile σου: προγραμματισμός, apps, AI, χρήσιμο, άσχετο με τη δουλειά. Low risk (portfolio approach), high upside, fast shipping cycle.
 - **Seven Echoes tie-in:** Καθόλου.
 
 ### BASE #15 — Raycast extensions (macOS/Windows productivity)
@@ -264,7 +268,7 @@
 
 ## DECISION FRAMEWORKS (διάλεξε ένα path για να περιορίσεις τις επιλογές)
 
-Σε βοηθάω να οργανώσεις τη σκέψη δίνοντας 4 διαφορετικούς τρόπους να κόψεις τη λίστα. Διάλεξε **έναν τρόπο απόφασης** — μετά η shortlist είναι σχεδόν αυτόματη.
+Σε βοηθάω να οργανώσεις τη σκέψη δίνοντας 6 διαφορετικούς τρόπους να κόψεις τη λίστα. Διάλεξε **έναν τρόπο απόφασης** — μετά η shortlist είναι σχεδόν αυτόματη.
 
 ### 🎯 Path A — "Maximize Seven Echoes as multimedia universe"
 Στόχος: τα υπάρχοντα 2 assets (novel + Nevar) μοχλός για franchise play.
@@ -374,7 +378,7 @@
 
 ---
 
-## ΑΚΟΜΑ ΠΟΙΟ ΣΥΓΚΕΚΡΙΜΕΝΑ: SHORTLIST TOP 8
+## ΑΚΟΜΑ ΠΙΟ ΣΥΓΚΕΚΡΙΜΕΝΑ: SHORTLIST TOP 8
 
 Αν δεν θες να απαντήσεις καν στις ερωτήσεις πάνω και θες δικό μου "best guess" στο expanded profile σου (creative **+ AI/apps/programming**), ιδού τι βγαίνει:
 
@@ -384,7 +388,7 @@
 | **2** | **#14 Chrome Extensions portfolio (single-feature, AI-powered)** | Ship fast (30-80h/extension), 3 extensions σε 2 μήνες. Portfolio approach mitigates risk. AI + προγραμματισμός + useful = exact match. S-Hub template (17 extensions από 1 solo dev). | Marketing/ASO είναι critical — χωρίς distribution πεθαίνουν |
 | **3** | **#17 AI Agent product (vertical, niche)** | AI + code + solves real problem. Claude Agent SDK είναι state-of-the-art και εξοικειωμένος είσαι ήδη. Claude leverage 5/5. | Moat είναι δύσκολος — commoditization risk |
 | **4** | **#3 Narrative game (polish Nevar) + #1 Seven Echoes book** | Το creative-heavy combo. Δύο ready-to-ship assets. Μεγάλο ceiling. | Και τα δύο μεγάλο commitment — 6-12 μήνες |
-| **5** | **#18 Niche Micro-SaaS (AI-powered, non-agri)** | Pure cashflow play. Marc Lou / Pieter Levels template. €5K-€50K MRR realistic αν βρεις niche. | Marketing + retention είναι οι πραγματικοί competitors |
+| **5** | **#18 Niche Micro-SaaS (AI-powered)** | Pure cashflow play. Marc Lou / Pieter Levels template. €5K-€50K MRR realistic αν βρεις niche. | Marketing + retention είναι οι πραγματικοί competitors |
 | **6** | **#4 Visual Novel (νέο IP, Ren'Py)** | Writing strength σου ταιριάζει, art bottleneck mitigated με AI assist, Ren'Py learning curve μικρός. Φρέσκιο ξεκίνημα, νέο κόσμο. | Νέο IP = audience από μηδέν |
 | **7** | **#16 Desktop app (Tauri, writers' companion)** | "Novelist Workbench" — dogfooding για Seven Echoes series + sell σε άλλους authors. Obsidian template. | Desktop apps είναι harder να monetize από web |
 | **8** | **#9 Motion Comics (Seven Echoes adaptation)** | Medium που δεν έχει saturate, leverages το Seven Echoes IP, ταιριάζει ΓΡ+EN voice. | Χρειάζεται consistent upload schedule |
