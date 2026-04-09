@@ -1,0 +1,3 @@
+# This directory holds generated reports from /evaluate-projects runs.
+# Individual report files are gitignored by default via the adjacent .gitignore;
+# this .gitkeep exists to preserve the directory structure.

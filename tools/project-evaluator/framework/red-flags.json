@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "description": "Qualitative overlay on top of the numeric scoring. Red flags are attached to proposals during scoring; 2+ flags trigger an automatic demotion regardless of numeric rank. Each flag has a rule the scorer checks, a severity, and a human-readable reason.",
+  "flags": [
+    {
+      "id": "b2b_enterprise_sales",
+      "name": "Requires B2B enterprise sales",
+      "severity": "high",
+      "description": "Pricing above ~$500/month, customers are companies >50 employees, requires sales cycles of weeks to months. Solo part-time operators cannot sustain enterprise sales workflows.",
+      "detection_heuristic": "Look for: enterprise pricing, 'Contact Sales' CTA in competitors, procurement committees, SOC2 requirements, 30+ day evaluation periods."
+    },
+    {
+      "id": "regulatory_compliance",
+      "name": "Requires regulatory compliance",
+      "severity": "high",
+      "description": "Healthcare (HIPAA), financial advice (SEC/MiFID), legal services, GDPR-heavy data processing, medical devices. These domains have licensing, audit, and liability requirements that a solo builder cannot absorb.",
+      "detection_heuristic": "Look for: regulated industry verticals, PII handling beyond basics, patient/medical/financial data, liability exposure."
+    },
+    {
+      "id": "category_king_exists",
+      "name": "Category king already exists (>$10M funding)",
+      "severity": "medium",
+      "description": "The category has a dominant well-funded incumbent (Calm, Descript, Notion, Superhuman, Linear, Figma). New entrants need a radical wedge or an underserved sub-niche to survive.",
+      "detection_heuristic": "Named incumbent with Series A+ funding, acquired by a big tech company, or dominant market share mentioned in research sources."
+    },
+    {
+      "id": "mobile_native_mismatch",
+      "name": "Mobile-native stack mismatch",
+      "severity": "medium",
+      "description": "The project requires Swift/Kotlin native mobile development, but the user's stack is web-first. React Native is tolerable but still slower than web ship.",
+      "detection_heuristic": "Keywords: 'iOS app', 'Android app', 'native mobile', 'App Store only'. Cross-reference against the user's profile.yaml stack section."
+    },
+    {
+      "id": "no_distribution_channel",
+      "name": "No clear distribution channel",
+      "severity": "high",
+      "description": "The proposal has no platform-native store, no existing audience, no SEO wedge, no community. Pure 'build it and they will come' is the #1 killer of indie projects.",
+      "detection_heuristic": "Distribution Clarity factor scores 1-2 AND no specific channel mentioned in the idea description."
+    }
+  ],
+  "demotion_rule": {
+    "threshold": 2,
+    "action": "demote",
+    "description": "If a proposal accumulates 2 or more red flags, it is moved to the bottom third of every ranking regardless of numeric score. A proposal with 1 flag still ranks on its merits but gets a visible warning in the report."
+  }
+}

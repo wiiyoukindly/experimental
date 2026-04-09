@@ -1,0 +1,61 @@
+identity:
+  name: wiiyoukindly
+  bilingual:
+    - en
+    - el
+  role: solo builder / creative + technical
+stack:
+  languages:
+    - typescript
+    - javascript
+  frameworks:
+    - react
+    - vite
+    - tailwind
+    - framer-motion
+    - zustand
+  runtimes:
+    - node
+  db:
+    - drizzle
+  comfort:
+    react: 5
+    typescript: 5
+    node: 4
+    python: 2
+    swift: 1
+    kotlin: 1
+  proven_on:
+    - ThesPlan
+    - Nevar
+    - Seven Echoes tooling
+assets:
+  - name: Seven Echoes novel
+    type: publish-ready ebook
+    reusable: true
+  - name: Nevar
+    type: playable game MVP (React noir)
+    reusable: true
+  - name: ThesPlan
+    type: Replit app (productivity/planning)
+    reusable: true
+  - name: AniRec
+    type: Replit app (anime recommender)
+    reusable: true
+  - name: weight-game
+    type: Replit app (gamified fitness)
+    reusable: true
+time:
+  hours_per_week: 20
+  availability: part-time, flexible
+goals:
+  primary: monetize creative work + build portfolio of shippable tools
+  cashflow_pressure: low
+  life_stage: exploring directions, choosing next project
+constraints:
+  target_market: global / EN
+  not_targeting:
+    - greek-only niches
+  no_b2b_enterprise: true
+  no_regulatory_domains: true
+framework_version: 1.0.0
