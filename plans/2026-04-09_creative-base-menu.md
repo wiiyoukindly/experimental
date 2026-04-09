@@ -1,5 +1,37 @@
 # Creative Base Menu — Οργανωμένη σκέψη για monetizable creative projects
 
+## 📍 Jump to
+
+- [Context reset](#context-reset)
+- [TL;DR](#tldr--αν-διαβάσεις-μόνο-ένα-section)
+- [Τι υπάρχει ήδη στο οπλοστάσιο σου](#τι-υπαρχει-ηδη-στο-οπλοστασιο-σου)
+- [Project-to-base cross reference](#project-to-base-cross-reference-raw-materials-όχι-commands) *(μετά το Tier 4)*
+- [Group 1 — Creative / Expression bases (#1–#12)](#group-1--creative--expression-bases-112)
+- [Group 2 — Utility / AI / App bases (#13–#20)](#group-2--utility--ai--app-bases-1320)
+- [Cross-categorization matrix](#cross-categorization-matrix)
+- [Decision frameworks (6 Paths A–F)](#decision-frameworks-διάλεξε-ένα-path-για-να-περιορίσεις-τις-επιλογές)
+- [8 questions που κόβουν τη λίστα](#για-να-διαλεξεις-8-ερωτησεις-που-κοβουν-τη-λιστα)
+- [Shortlist Top 8](#ακομα-πιο-συγκεκριμενα-shortlist-top-8)
+- [Sources](#sources-full-research-trail)
+
+---
+
+## TL;DR — Αν διαβάσεις μόνο ένα section
+
+**Το πρόβλημα:** Έχεις 20+ ώρες/εβδομάδα, βιβλίο publish-ready (Seven Echoes), playable game MVP (Nevar), portfolio από Replit apps, και δεν μπορείς να διαλέξεις κατεύθυνση.
+
+**Τα 3 πιο πιθανά σωστά pick για εσένα:**
+
+1. **Path F Hybrid — #19 AI-native creative tool + #1 Seven Echoes launch** (rank #1 στο shortlist). Dogfooding: εσύ πρώτος user, μετά sell. Χτυπάει ΚΑΙ το creative ΚΑΙ το AI/tech profile σου ταυτόχρονα.
+2. **Path E Fast-start — #14 Chrome extensions portfolio** (rank #2). Ship 2-3 single-feature extensions σε 2 μήνες. Low risk, portfolio approach, AI+coding+useful match.
+3. **Path A Multimedia — Seven Echoes ως universe** (#1 Fiction + #2 Audiobook + #9 Motion comics + #12 Audio drama). Maximum IP leverage αν δεν έχεις κουραστεί με το Seven Echoes.
+
+**Αν δεν μπορείς να διαλέξεις ΤΩΡΑ:** Απάντησε στις [8 ερωτήσεις](#για-να-διαλεξεις-8-ερωτησεις-που-κοβουν-τη-λιστα) — ειδικά την **#8** (creative vs utility) που είναι το πιο καθοριστικό filter.
+
+**Γιατί όχι απλώς "διάλεξε 1 και πήγαινε":** Επειδή το decision cost είναι μικρότερο από το commitment cost. Οι 10 λεπτά που θα ξοδέψεις στις ερωτήσεις → σώζουν 3 μήνες λάθος path.
+
+---
+
 ## Context reset
 
 **Τι άλλαξε από την προηγούμενη έκδοση:**
@@ -357,6 +389,8 @@
 ---
 
 ## ΓΙΑ ΝΑ ΔΙΑΛΕΞΕΙΣ: 8 ΕΡΩΤΗΣΕΙΣ ΠΟΥ ΚΟΒΟΥΝ ΤΗ ΛΙΣΤΑ
+
+> 💡 **Workflow tip:** Απάντησε στις ερωτήσεις πρώτα, μετά γύρνα πίσω στα [6 Paths (A–F)](#decision-frameworks-διάλεξε-ένα-path-για-να-περιορίσεις-τις-επιλογές) με clarity. Η ερώτηση #8 (creative vs utility) από μόνη της κόβει τη μισή λίστα.
 
 Οι απαντήσεις σου σε αυτές θα περιορίσουν δραματικά τις επιλογές:
 
