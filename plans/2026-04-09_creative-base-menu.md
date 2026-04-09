@@ -68,7 +68,7 @@
 | **Nevar / Νέβαρ** (React noir game) | Playable MVP (4 σκηνές, dialogue, map) | #3 Indie narrative game, #4 Visual novel, #5 Interactive fiction |
 | **Seven Echoes covers & art** (cover, hardcover, paperback) | Final | Κάθε base που χρειάζεται visual identity |
 | **Project bible + voice guide** | Complete | Consistency για κάθε Seven Echoes spinoff |
-| **Replit apps portfolio** (ThesPlan, Book Generation, AniRec, weight-game, MD2, κ.ά.) | Tech foundation | Tech bases (#3-#5, #10-#11) |
+| **Replit apps portfolio** (ThesPlan, Book Generation, AniRec, weight-game, κ.ά.) | Tech foundation | Tech bases (#3-#5, #10-#11) |
 | **Stack comfort**: React, TS, Vite, Zustand, Drizzle, Tailwind, Framer Motion, Web Audio API | Proven στο ThesPlan/Nevar | Κάθε web-based base |
 | **Bilingual ability** (GR + EN) | Native | Διπλή αγορά σε κάθε base |
 
@@ -95,7 +95,7 @@
 | **P7** | **Book Generation** *(guess: AI book drafter)* | Replit app | **#19 (direct — it IS one)**, #18 (SaaS writers' tool), #17 (novelist assistant agent) | low | Potentially the biggest unfair advantage σου για #19 — needs audit |
 | **P8** | **AniRec** *(guess: anime recommendation)* | Replit app | #14 (Chrome ext overlay σε streaming sites), #18 (niche SaaS), #19 (AI-driven rec engine) | medium | Recommendation logic + taste data |
 | **P9** | **weight-game** *(guess: fitness/weight tracker με gamification)* | Replit app | #13 (AI mobile app pivot), #18 (fitness niche SaaS) | high | ⚠️ Outside creative/narrative sphere — consider skipping entirely αν δεν έχει traction |
-| **P10** | **MD2** *(guess: markdown processor/renderer)* | Replit app | #10 (VS Code ext), #16 (desktop app), #15 (Raycast ext) | low | Parser/renderer logic portable |
+| ~~P10~~ | ~~MD2~~ *(clarified 2026-04: drafts folder με Seven Echoes πρώιμη μορφή — **όχι** standalone project, merged under P1)* | — | — | — | — |
 | **P11** | **Stack comfort** (React, TS, Vite, Zustand, Drizzle, Tailwind, Framer Motion, Web Audio API) | Transferable skill (not a project) | Enables #3-#5, #10-#20 (virtually every web-based base) | 0 | Not transformed — is the foundation |
 
 ### Per-project notes & traps
@@ -113,11 +113,11 @@
 ### Assets-to-path quick map
 
 - **Αν διαλέξεις Path A (Seven Echoes multimedia):** enable P1, P3, P4. Potentially P2 ως prologue game αν θέλεις.
-- **Αν διαλέξεις Path E (Pure tech/AI):** enable P2 (Nevar code shell), P7 (Book Gen foundation), P10 (MD2). Seven Echoes αναπαύεται.
+- **Αν διαλέξεις Path E (Pure tech/AI):** enable P2 (Nevar code shell), P7 (Book Gen foundation). Seven Echoes αναπαύεται.
 - **Αν διαλέξεις Path F (Hybrid #19 + #1):** enable P1, P3, P4, P5, **and crucially P7** (Book Generation as tool foundation). Αυτό είναι το path με το μεγαλύτερο project leverage.
 - **Αν διαλέξεις Path B (new standalone IP):** enable P11 (stack), potentially P2 (engine). Όλα τα Seven Echoes assets μένουν στο shelf (and that's fine).
-- **Αν διαλέξεις Path C (abstract tools):** enable P2, P10, P11. Νarrative assets ελάχιστα χρήσιμα.
-- **Αν διαλέξεις Path D (portfolio anchor + experiments):** ο anchor καθορίζει τα primary assets, τα experiments μπορούν να ανακυκλώσουν P5/P6/P8/P10.
+- **Αν διαλέξεις Path C (abstract tools):** enable P2, P11. Νarrative assets ελάχιστα χρήσιμα.
+- **Αν διαλέξεις Path D (portfolio anchor + experiments):** ο anchor καθορίζει τα primary assets, τα experiments μπορούν να ανακυκλώσουν P5/P6/P8.
 
 ### Assets you DON'T have (gap analysis)
 
@@ -897,7 +897,7 @@ Ease: πόσο εύκολα solo ship · Revenue ceiling: ρεαλιστικό u
 
 1. Ποιες 3-5 από τις 21 σου προκαλούν instant reaction ("ναι, αυτό θα το έκανα");
 2. Υπάρχουν domains/τομείς όπου έχεις κάνει βαθιά δική σου ανάλυση που λείπουν εντελώς από αυτό το list; Πες μου να τα προσθέσω.
-3. Για το MD2 Replit app — δεν ξέρω τι κάνει, πες μου σε 1 γραμμή και θα προτείνω upgrade paths.
+3. ~~MD2~~ — clarified 2026-04: drafts folder για Seven Echoes πρώιμη μορφή, όχι standalone project. Ήδη καλυμμένο από P1.
 
 ---
 
