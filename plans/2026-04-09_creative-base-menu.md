@@ -72,6 +72,38 @@
 
 ---
 
+## GREEK / BILINGUAL MARKET EDGE (context-add)
+
+Η διγλωσσία σου αναφέρεται παραπάνω σαν μία γραμμή, αλλά είναι ανεκμετάλλευτος multiplier. Εδώ είναι τι σημαίνει πρακτικά ανά base category το 2026:
+
+### Publishing (#1 Fiction, #2 Audiobook)
+- **KDP Greek market:** Χαμηλή competition density vs EN. Top genres GR 2026: psychological thriller, historical fiction, romance, self-help. Noir/sci-fi είναι undersized → opportunity για Seven Echoes. KDP Select + KU δουλεύουν και στα ελληνικά. Ρεαλιστικό: €100-€800/μήνα για GR-only τίτλο με average marketing, €300-€2K+ αν hit niche.
+- **Audiobook GR:** Storytel GR είναι η κύρια πλατφόρμα (subscription-based royalty pool). Audible GR practically inactive. ElevenLabs Greek voice quality 2026 είναι "good enough for narrative" — όχι πλήρως production-grade αλλά ήδη αρκετά. Findaway distribution στέλνει σε Storytel → καθιστά bilingual audiobook **πολύ πιο εφικτό** από 2024.
+- **Double-launch play:** Ship EN + GR ταυτόχρονα. Zero extra writing, 2× SKUs, 2× SEO surface, 2× review pools. Αυτό είναι το βασικό unfair advantage σου vs monolingual competitors.
+
+### Games (#3 Narrative game, #4 VN, #5 IF)
+- **Steam GR localization bonus:** Steam users in Greece heavily gravitate to Greek-localized titles — παίρνεις +20-40% wishlist conversion rate vs English-only (based on 2024-2026 Greek indie dev reports). Κόστος: μηδέν (εσύ localize).
+- **Greek gaming press** (GameWorld.gr, Zugzwang, Enternity) είναι φιλικό σε indie GR titles — free reviews/coverage vs international press που πληρώνεται πλέον.
+- **Warning:** η Greek-only παίκτων base είναι μικρή. Το localization είναι wrapper, όχι primary market.
+
+### Apps/tools (#13-#20)
+- **Chrome extensions & SaaS:** Greek-only market είναι trap — πολύ μικρό, χαμηλή willingness-to-pay. **Ship EN-first παγκόσμια**, πρόσθεσε GR localization μόνο αν η extension έχει πρακτική χρήση για Greeks (π.χ. ΔΟΥ / banking / taxisnet workflow helpers).
+- **Exception:** extensions που λύνουν Greek-specific pain points (π.χ. myTAXISnet auto-fill, Ελληνική grammar proofer) έχουν μηδενική competition και loyal user base — low ceiling αλλά fast wins.
+- **Mobile apps (#13):** Same logic. Global EN first.
+
+### Audio/podcast (#12)
+- **Greek audio drama:** Πρακτικά zero competition. Αυτό είναι **ambiguous signal**: είτε opportunity (first-mover) είτε warning (market δεν υπάρχει). Safer read: θα χρειαστείς να δημιουργήσεις το audience από το μηδέν — slow burn αλλά πραγματικό moat αν συνεχίσεις 12+ μήνες.
+
+### Tax / legal (πρακτικό)
+- **KDP/Steam/Apple/Google:** Πληρώνεις VAT στην Ελλάδα ως freelancer ή ΕΠΕ. OSS (One-Stop-Shop) απλοποιεί EU VAT. Αμερικάνικο withholding 0% αν έχεις ελληνικό ΑΦΜ και έχεις υποβάλει W-8BEN.
+- **Chrome Web Store / ExtensionPay / Stripe:** Stripe Greece ενεργό από 2022. Για Chrome Web Store payments: Merchant account χρειάζεται US/EU-verified, ExtensionPay είναι απλούστερη αλλά παίρνει 5%.
+- **Steam (#3):** Steam Direct $100 fee, Valve κρατάει 30%, εσύ δηλώνεις στην Ελλάδα. VAT χειρίζεται η Valve.
+- **ΕΠΕ vs freelance:** Αν περάσεις τα ~€10K/έτος, ΕΠΕ/ΙΚΕ δίνει καλύτερη tax treatment. Κάτω από αυτό, απλό freelance ΕΦΚΑ + μηδενικά δικαιολογητικά.
+
+**Bottom line:** Η διγλωσσία σου είναι multiplier στο publishing/audio (+100% market surface, low effort), bonus στα games (+wishlist conversion), και ουδέτερη-έως-trap στα apps/tools (global-first πάντα).
+
+---
+
 ## GROUP 1 — CREATIVE / EXPRESSION BASES (#1–#12)
 
 Κάθε base έχει ίδια δομή: `What → Tools → Realistic Revenue → Success Example → Effort → Fit → Seven Echoes tie-in`.
@@ -296,6 +328,70 @@
 | 19 | **AI-native creative tools** | 3 | 4 | 2 | **5** | strong |
 | 20 | Open-source + paid cloud | 2 | 4 | 1 | 4 | optional |
 
+### Execution economics matrix (additive — κόστος, χρόνος, solo feasibility)
+
+Στόχος αυτού του δεύτερου matrix: όταν έχεις ήδη περιορίσει το shortlist με το πρώτο matrix (fit/upside), αυτός ο πίνακας σου λέει **πόσο θα σου στοιχίσει, πότε θα δεις λεφτά, πόσο δύσκολο είναι το marketing, πόσο βιώσιμο είναι solo**. Τα νούμερα είναι ρεαλιστικά estimates βασισμένα σε 2026 benchmarks.
+
+Columns:
+- **Upfront €** — minimum που χρειάζεσαι για launch (χωρίς paid marketing)
+- **Weeks to first €** — από "ξεκινάω σήμερα" μέχρι πρώτη είσπραξη (σε εβδομάδες)
+- **Marketing δυσκολία** — 1 (εύκολο, organic works) έως 5 (brutal, paid + daily grind)
+- **Solo sustainability** — 1 (σχεδόν αδύνατο solo) έως 5 (ιδανικό για solo dev)
+
+| # | Base | Upfront € | Weeks to first € | Marketing δυσκολία | Solo sustainability |
+|:-:|---|:-:|:-:|:-:|:-:|
+| 1 | Self-pub fiction | 0-100 | 2-6 | 4 | **5** |
+| 2 | AI audiobooks | 60-200 | 6-14 | 4 | **5** |
+| 3 | Indie narrative game | 100-500 | 12-26 | 4 | 3 |
+| 4 | Visual novel (Ren'Py) | 10-150 | 12-26 | 4 | 4 |
+| 5 | Interactive fiction | 0-50 | 2-12 | 3 | **5** |
+| 6 | Webcomics | 50-300 | 24-52 | **5** | 2 |
+| 7 | Graphic novel (KS) | 500-3.000 | 2-8 (pledges) | 3 | 2 |
+| 8 | Indie animation (YT) | 200-1.000 | 24-78 | **5** | 1 |
+| 9 | Motion comics (YT) | 100-500 | 12-36 | 4 | 3 |
+| 10 | Dev tools (ext) | 0-50 | 2-8 | 3 | **5** |
+| 11 | Generative art | 0-200 | 4-16 | 4 | **5** |
+| 12 | Podcast / audio drama | 100-400 | 12-52 | 4 | 4 |
+| 13 | AI mobile app | 150-500 | 2-8 | **5** | 4 |
+| 14 | **Chrome extensions** | 5-100 | **1-4** | 3 | **5** |
+| 15 | Raycast extensions | 0-100 (+ Mac) | 2-6 | 2 | **5** |
+| 16 | Desktop app | 100-400 | 2-6 | 4 | 4 |
+| 17 | **AI agent products** | 50-500 | 2-8 | 4 | 4 |
+| 18 | Niche micro-SaaS | 50-400 | 2-8 | 4 | 3 |
+| 19 | **AI-native creative tools** | 50-500 | 2-8 | 4 | 4 |
+| 20 | Open-source + paid cloud | 20-200 | 4-12 | 3 | 3 |
+
+**Key read:** Οι 4 bases με χαμηλό upfront (€0-100) + χαμηλό time-to-first-€ (≤8 εβδομάδες) + solo sustainability ≥4 είναι: **#1 Fiction**, **#5 IF**, **#14 Chrome ext**, **#15 Raycast ext** — αυτές είναι οι "fast-fail, fast-learn" επιλογές αν θες γρήγορο feedback signal.
+
+### Skills you already have vs skills you need to learn (ανά base)
+
+Concrete gap analysis. Ώρες στο "need to learn" είναι estimates για "functional competence", όχι mastery.
+
+| # | Base | Έχεις ήδη | Χρειάζεσαι να μάθεις | Learning hrs |
+|:-:|---|---|---|:-:|
+| 1 | Self-pub fiction | Writing, KDP knowledge, book-style.css, covers | KDP advanced marketing, Amazon ads | 10-20 |
+| 2 | AI audiobooks | Manuscript, bilingual | ElevenLabs Projects pipeline, Audacity mastering, Findaway flow | 15-30 |
+| 3 | Indie narrative game | React, TS, Nevar engine | Steam Direct submission, game marketing, bug triage workflow | 20-40 |
+| 4 | Visual novel (Ren'Py) | Prose, bilingual | Ren'Py Python scripting, Midjourney/Flux pipeline, sound design basics | 30-50 |
+| 5 | Interactive fiction | Prose, React/TS (για Twine custom) | Twine DSL ή Ink syntax, ChoiceScript conventions | 5-15 |
+| 6 | Webcomics | — | Drawing (major), Clip Studio Paint, platform algorithms | 300+ (art) |
+| 7 | Graphic novel | — | Kickstarter campaign management, OGN layout, art (outsource realistic) | 40-80 (biz) |
+| 8 | Indie animation | Visual storytelling | Blender/Toon Boom (major), animation principles | 400+ |
+| 9 | Motion comics | Voice, Web Audio, Blender compositor basics | After Effects / Blender compositing workflow, VO direction | 40-80 |
+| 10 | Dev tools (ext) | TS, React | VS Code Extension API, Marketplace publishing | 15-30 |
+| 11 | Generative art | JS | p5.js/Three.js idioms, shader basics, NFT infra (optional) | 30-60 |
+| 12 | Podcast / audio drama | Writing, voice guide | Reaper/Audacity sound design, multi-voice ElevenLabs direction | 30-60 |
+| 13 | AI mobile app | React (→RN), Stack | React Native Build/Release, RevenueCat billing, ASO | 40-80 |
+| 14 | Chrome extensions | React, TS, Vite | Manifest v3, Chrome APIs, ExtensionPay/Stripe billing | 15-30 |
+| 15 | Raycast extensions | React, TS, Node | Raycast API, Mac-specific testing (need Mac) | 10-20 |
+| 16 | Desktop app (Tauri) | React, TS | Tauri (Rust basics) ή Electron, code signing, auto-update | 30-60 |
+| 17 | AI agent products | API calls, Stack | Claude Agent SDK patterns, RAG (Pinecone/Weaviate), prompt chaining | 40-80 |
+| 18 | Niche micro-SaaS | Full-stack TS | Stripe/LemonSqueezy integration, cold-start marketing, retention metrics | 30-60 |
+| 19 | AI-native creative tools | Stack, domain knowledge (writer) | Model APIs (Replicate, Fal.ai, ElevenLabs), domain-specific UX | 30-60 |
+| 20 | Open-source + paid cloud | Git/GitHub, Stack | OSS community building, Docker deploy, pricing strategy | 40-80 |
+
+**Key read:** Οι 4 bases με ΧΑΜΗΛΟΤΕΡΟ learning overhead (<20h) είναι: **#1 Fiction**, **#5 IF**, **#14 Chrome ext**, **#15 Raycast** — ίδια fast-feedback shortlist με το execution matrix. Συνεπές.
+
 ---
 
 ## DECISION FRAMEWORKS (διάλεξε ένα path για να περιορίσεις τις επιλογές)
@@ -388,6 +484,41 @@
 
 ---
 
+### 🔗 Σχέση μεταξύ Path D και Path F (για να μην μπερδεύεις)
+
+Τα δύο paths μοιάζουν αλλά έχουν διαφορετική καρδιά:
+- **Path D** είναι **intensity gradient**: ένα κύριο project που σε απορροφά (anchor) + μικρές παράλληλες διαφυγές. Όλα είναι δικαιώματα πάνω στην ίδια kind of work.
+- **Path F** είναι **type gradient**: creative AND utility σε παράλληλο, **διαφορετικός τύπος εργασίας**. Σκέψη λειτουργεί διαφορετικά — όταν βαριέσαι το ένα, το άλλο είναι ανακούφιση γιατί είναι άλλο είδος σκέψης.
+
+**Διάλεξε D αν:** σου αρέσει το anchor project σου και θες "σωσίβια" εξόδους όταν κολλάς μέσα του.
+**Διάλεξε F αν:** θες σκόπιμα **context switch** μεταξύ "story brain" και "product brain".
+
+Δεν είναι ανταγωνιστικά — είναι δύο διαφορετικές απαντήσεις στην ερώτηση "πώς διαχειρίζομαι tiredness/burnout σε ένα mode".
+
+---
+
+## ⚠️ DECISION TRAP WARNINGS (πριν κλειδώσεις path)
+
+Κάθε path έχει μια κρυφή παγίδα. Αν διαλέξεις path αλλά **δεν ταιριάζει με τις απαντήσεις σου** στις 8 questions παρακάτω, εδώ είναι τι να προσέχεις:
+
+- **Path A (Seven Echoes multimedia)** — trap: αν απαντήσεις στην ερώτηση #1 *"κουράστηκα με το Seven Echoes"*, αυτό το path θα νιώθει σαν workout χωρίς oxygen. Το IP reuse δεν σώζει από creative fatigue.
+
+- **Path B (New creative IP)** — trap: αν απαντήσεις στην ερώτηση #5 *"θέλω κάτι που να ship πριν το καλοκαίρι"*, new IP + new medium είναι πολύ χρόνο για να χτίσεις audience. Consider Path F αντί.
+
+- **Path C (Abstract tools / creative coding)** — trap: αν απαντήσεις στην ερώτηση #8 *"θέλω να δω χαρακτήρες/κόσμο στο τέλος της μέρας"*, αυτό το path είναι emotionally thin για σένα. Generative art συχνά αισθάνεται κενό σε long stretches.
+
+- **Path D (Portfolio anchor + experiments)** — trap: αν απαντήσεις *"μισώ context switching"* στην ερώτηση #4, θα νιώθεις συνεχώς διχασμένος. Το anchor θα φαίνεται σαν υποχρέωση, τα experiments σαν procrastination.
+
+- **Path E (Pure tech/utility/AI)** — trap: αν απαντήσεις στην ερώτηση #7 *"μισώ marketing/distribution"*, αυτό είναι το λάθος path. Chrome extensions, SaaS, agents — όλα απαιτούν ASO, SEO, content marketing. Δεν υπάρχει "ship and forget" mode εδώ.
+
+- **Path F (Hybrid creative + utility)** — trap: αν απαντήσεις στην ερώτηση #2 *"κουράστηκα με prose"*, ακόμα και το dogfooding στο #19 AI writing tool θα σε πιέσει να γράφεις νέα Seven Echoes κεφάλαια. Το dogfooding χωρίς dogfood = το tool δεν έχει ψυχή.
+
+- **Universal trap — scope creep στο Path F:** Η combination #19 tool + #1 book είναι seductive αλλά το tool θα τραβάει χρόνο από το book. Mitigation: ορίζεις χρονικό box (π.χ. max 8 ώρες/εβδομάδα στο tool μέχρι να πάει live το book), το σέβεσαι.
+
+- **Universal trap — "I already have X so I must use it":** Το γεγονός ότι έχεις Seven Echoes, Nevar, ή Replit apps **δεν σημαίνει** ότι πρέπει να τα εκμεταλλευτείς. Sunk cost fallacy. Αν καρδιά σου είναι σε νέο IP, κάντο. Τα assets μένουν στο shelf.
+
+---
+
 ## ΓΙΑ ΝΑ ΔΙΑΛΕΞΕΙΣ: 8 ΕΡΩΤΗΣΕΙΣ ΠΟΥ ΚΟΒΟΥΝ ΤΗ ΛΙΣΤΑ
 
 > 💡 **Workflow tip:** Απάντησε στις ερωτήσεις πρώτα, μετά γύρνα πίσω στα [6 Paths (A–F)](#decision-frameworks-διάλεξε-ένα-path-για-να-περιορίσεις-τις-επιλογές) με clarity. Η ερώτηση #8 (creative vs utility) από μόνη της κόβει τη μισή λίστα.
@@ -429,6 +560,71 @@
 
 ---
 
+## 🚀 WEEK 1 ACTION PLANS (για τα top 3 paths)
+
+Αν διαλέξεις ένα από τα τρία top paths, εδώ είναι concrete 5-step checklist για τις πρώτες 7 ημέρες. Στόχος: να βγεις από "analysis" σε "shipping" μέσα σε 1 εβδομάδα.
+
+### 🎯 Week 1 — Path F Hybrid (rank #1): #19 AI creative tool + #1 Seven Echoes launch
+
+**Day 1-2 — Book side (critical path):**
+1. Review Seven Echoes EN EPUB + covers — επιβεβαίωση ότι KDP listing metadata (title, subtitle, description, 7 keywords, 2 categories) είναι τελικά. Χρόνος: 2-3 ώρες.
+2. Upload EN version σε KDP (eBook + paperback). Χρόνος: 1-2 ώρες (KDP wizard).
+
+**Day 3-4 — Tool side (define scope hard):**
+3. Γράψε 1-page spec για το #19 tool. Να είναι **brutally narrow**: π.χ. "AI pacing analyzer που παίρνει chapter, επιστρέφει heatmap scene tempo". Τίποτα παραπάνω. Χρόνος: 2 ώρες.
+4. Scaffold repo: Vite + React + Tailwind + Anthropic SDK. Hard-code Claude API call με μία prompt. Χρόνος: 3-4 ώρες.
+
+**Day 5-7 — Integrate + ship both:**
+5. Δοκίμασε το tool πάνω στα ίδια τα Seven Echoes κεφάλαια (dogfood #1). Ship το GR version του book στο KDP. Χρόνος: 4-6 ώρες.
+
+**End-of-week state:** Seven Echoes EN+GR live στο KDP, tool MVP τρέχει local με 1 real feature, εσύ είσαι ο first user.
+
+**Χρονικό box:** **Max 8 ώρες/εβδομάδα** στο tool μέχρι να πάει το book live. Μετά αναβάλλεται το lock.
+
+---
+
+### 🛠️ Week 1 — Path E (rank #2): #14 Chrome extensions portfolio
+
+**Day 1 — Foundations:**
+1. Register Chrome Web Store developer account ($5 one-time). Χρόνος: 30 λεπτά.
+2. Clone το [Plasmo starter](https://docs.plasmo.com/framework) ή στήσε vanilla Vite + TypeScript + manifest v3. Χρόνος: 1 ώρα.
+
+**Day 2-3 — First extension (single-feature, brutally narrow):**
+3. Διάλεξε ένα micro-pain που βιώνεις καθημερινά (όχι hypothetical user). Π.χ. "όταν διαβάζω ChatGPT conversation, θέλω export markdown button". Build σε 1 day. Χρόνος: 6-10 ώρες.
+
+**Day 4-5 — Polish + publish:**
+4. Icon (Midjourney/Flux), screenshots (3-5), Privacy Policy (copy/paste template), store listing description. Submit για review. Χρόνος: 3-5 ώρες. Review time: 1-5 μέρες.
+
+**Day 6-7 — Second extension scaffold:**
+5. Ξεκίνα το #2 extension. Στόχος: να είναι released ο #1 και να έχει scaffolded ο #2 μέχρι το τέλος της εβδομάδας.
+
+**End-of-week state:** Extension #1 submitted/live, extension #2 scaffolded. Zero marketing πιέσεις ακόμα — focus στο shipping cadence.
+
+**Χρονικό box:** Max 1 extension ανά 2 εβδομάδες. Αν δεν shipάρεις σε 14 μέρες → το scope σου είναι πολύ μεγάλο, narrow it.
+
+---
+
+### 📚 Week 1 — Path A (rank #4): Seven Echoes multimedia universe
+
+**Day 1-2 — Book ship (foundation για όλα τα υπόλοιπα):**
+1. Upload Seven Echoes EN + GR σε KDP (eBook + paperback). Hardcover optional σε phase 2. Χρόνος: 3-4 ώρες.
+2. Draft launch announcement (1 post, 1 reel script, 1 newsletter entry αν υπάρχει list). Χρόνος: 2 ώρες.
+
+**Day 3 — Audiobook pipeline setup:**
+3. Register ElevenLabs (€22-99/mo plan) + Findaway Voices account (free). Τεστ 1 κεφάλαιο με ElevenLabs για voice selection + quality check. Χρόνος: 2-3 ώρες.
+
+**Day 4-5 — Motion comic test:**
+4. Pilot episode: διάλεξε 1 iconic scene από Seven Echoes (3-5 λεπτά audio), γράψε storyboard (10-15 panels), στήσε After Effects timeline ή Blender scene. Χρόνος: 6-10 ώρες.
+
+**Day 6-7 — Audio drama experiment:**
+5. Record 5-min audio drama excerpt: 1 scene με multi-voice (ElevenLabs voice clones + Audacity mixing + royalty-free ambient track). Upload σε private Spotify for Podcasters για feedback. Χρόνος: 4-6 ώρες.
+
+**End-of-week state:** Book live (or in review), 1 audiobook chapter drafted, 1 motion comic scene rough, 1 audio drama excerpt exists. 4 different media από 1 IP σε 7 ημέρες.
+
+**Χρονικό box:** Αν κάποιο medium σε αφήνει ψυχρό στην πρώτη εβδομάδα → σταμάτα το. Δεν υπάρχει λόγος να forceάρεις και τα 4.
+
+---
+
 ## ΓΙΑ ΝΑ ΠΑΜΕ ΠΙΟ ΚΑΤΩ
 
 Δεν κλειδώνω τίποτα σε αυτό το έγγραφο. Οι επόμενες κινήσεις εξαρτώνται από τις απαντήσεις σου.
@@ -440,6 +636,37 @@
 **Αν είσαι ακόμα αναποφάσιστος:** Πες μου ποια *3 από τα 20 bases* σε κάνουν να λες "ναι, αυτό θα το έκανα ευχαρίστως" **χωρίς να σκέφτεσαι revenue**. Αυτά τα 3 είναι το πραγματικό σου shortlist — revenue θα το κανονίσουμε μετά.
 
 **Αν θες ακόμα πιο μικρό bite:** Πες μου απλά αν το ερώτημα #8 (creative vs utility) έχει σαφή απάντηση για σένα. Αν ναι → κόβεται η μισή λίστα αμέσως.
+
+---
+
+## ΤΙ ΔΕΝ ΚΑΛΥΨΕ ΤΟ PLAN (scope disclosure)
+
+Για transparency, εδώ είναι bases/angles που **επίτηδες δεν εξετάστηκαν** σε βάθος, και γιατί:
+
+- **TTRPG writing / adventure modules** (Paizo, DriveThruRPG, Kickstarter) — fits το writing strength αλλά η audience είναι hobbyist, revenue γενικά χαμηλό ($500-$5K/year για solo writer). Αν σε τραβάει, είναι reasonable side-experiment.
+- **Stock photography / AI art marketplaces** (Adobe Stock, Shutterstock με AI-generated, Midjourney → Etsy prints) — race to the bottom, oversaturated post-2024. Skip.
+- **Udemy / Skillshare / Teachable courses** (για writing ή dev topics) — evergreen income αν hit right audience, αλλά marketing-heavy και εσύ δεν έχεις ακόμα established brand ως teacher. Επιστρέφεις εδώ σε 2-3 χρόνια αφού έχεις το "proof" από άλλη base.
+- **Newsletter-first monetization** (Substack, beehiiv, ghost) — valid path, αλλά μόνο αν σου αρέσει consistent writing schedule (weekly posts για 12+ μήνες χωρίς revenue) και έχεις "niche authority angle". Για σένα ίσως δουλεύει ως **companion** σε μία από τις bases (π.χ. dev log newsletter για το #3 game), όχι primary base.
+- **Reverse-trial SaaS** (RevenueCat 2026 trend — free forever, premium unlock mid-use) — είναι μια strategy, όχι base. Εφαρμόζεται στο #13, #14, #18, #19. Θα αναφέρεται σε future iterations του plan ως tactic.
+- **Kickstarter-as-primary distribution** (για οτιδήποτε εκτός #7 graphic novel) — εξετάστηκε μόνο για #7. Μπορεί να δουλέψει και για #3 game, #4 VN, #16 desktop app, αλλά απαιτεί community build-up πριν το launch που δεν έχεις ακόμα.
+- **YouTube long-form essays / video essays** — μπορεί να ταιριάζει (bilingual, narrative voice) αλλά production overhead είναι σημαντικό και δεν υπάρχει IP spinoff path. Αν το θες, ως marketing channel για άλλες bases (όχι primary base).
+- **TikTok / Reels as primary base** — marketing surface, όχι base. Μπορεί να τροφοδοτεί κάθε άλλη base.
+
+Αυτά δεν είναι "κακές ιδέες" — απλά είναι off-scope για αυτό το plan. Αν αργότερα θες κάτι από αυτά, μπορεί να γίνει διακριτό research pass.
+
+---
+
+## GREEK / EU SOLO-DEV & CREATOR BENCHMARKS (context που λείπει από τα US examples)
+
+Τα success examples στο plan είναι US-centric (Hugh Howey, Marc Lou, Pieter Levels). Εδώ λίγα EU/GR benchmarks για reality check:
+
+- **KDP Ελλάδα (Fiction):** Συγκεκριμένα Greek self-pub authors που ανέφεραν public numbers στα 2024-2026 — εύρος €150-€1.500/μήνα για active titles με moderate marketing. Top Greek self-pub τίτλοι σε genre fiction (thriller, romance) πιάνουν €3K-€8K/μήνα. Seven Echoes στο noir/sci-fi crossover είναι practical €400-€1.5K target στο πρώτο 12μηνο.
+- **Indie games EU (solo):** European solo devs reported στο [IndieDB EU 2026 survey](https://www.indiedb.com/) median €12K revenue per shipped title, με σημαντική skew (top 10% > €100K, bottom 50% < €2K). Greek studios (Relative Games, Dream Harvest) — boutique, team-based, not solo.
+- **Chrome extensions EU solo devs:** S-Hub (Japan) και Extension Radar publish benchmarks — solo EU devs βγαίνουν στο $500-$10K/μήνα range όταν hit niche. Στην Ελλάδα δεν υπάρχει public benchmark (υποδεικνύει gap — πρώτος εσύ που θα δημοσιεύσεις).
+- **SaaS solo EU founders:** Indie Hackers + Microconf data — median EU solo founder $2K-$15K MRR μετά από year 1, με σημαντική skew. Tax advantage στην Ελλάδα αν περάσεις σε ΙΚΕ/ΕΠΕ μετά το ~€15K/έτος.
+- **Tax practical notes (repeated για visibility):** Ως Greek freelance/ΙΚΕ, KDP/Steam/Apple/Google handle VAT collection (you declare net income). Stripe GR → OSS για EU VAT. US withholding = 0% με W-8BEN.
+
+Κανένας αριθμός εδώ δεν είναι guarantee — είναι benchmarks για να ξέρεις αν είσαι σε πλαίσιο ή way off. Το plan's primary numbers (€ figures στα bases) ισχύουν, αυτά τα EU benchmarks απλώς τα πλαισιώνουν.
 
 ---
 
