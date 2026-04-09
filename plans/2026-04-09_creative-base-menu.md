@@ -13,6 +13,7 @@
 - [Decision frameworks (6 Paths A–F)](#decision-frameworks-διάλεξε-ένα-path-για-να-περιορίσεις-τις-επιλογές)
 - [8 questions που κόβουν τη λίστα](#για-να-διαλεξεις-8-ερωτησεις-που-κοβουν-τη-λιστα)
 - [Shortlist Top 8](#ακομα-πιο-συγκεκριμενα-shortlist-top-8)
+- [**Non-writing research proposals (2026-04 addendum)**](#2026-04-research-addendum--non-writing-project-proposals-21-ideas)
 - [Sources](#sources-full-research-trail)
 
 ---
@@ -67,7 +68,7 @@
 | **Nevar / Νέβαρ** (React noir game) | Playable MVP (4 σκηνές, dialogue, map) | #3 Indie narrative game, #4 Visual novel, #5 Interactive fiction |
 | **Seven Echoes covers & art** (cover, hardcover, paperback) | Final | Κάθε base που χρειάζεται visual identity |
 | **Project bible + voice guide** | Complete | Consistency για κάθε Seven Echoes spinoff |
-| **Replit apps portfolio** (ThesPlan, Book Generation, AniRec, weight-game, MD2, κ.ά.) | Tech foundation | Tech bases (#3-#5, #10-#11) |
+| **Replit apps portfolio** (ThesPlan, Book Generation, AniRec, weight-game, κ.ά.) | Tech foundation | Tech bases (#3-#5, #10-#11) |
 | **Stack comfort**: React, TS, Vite, Zustand, Drizzle, Tailwind, Framer Motion, Web Audio API | Proven στο ThesPlan/Nevar | Κάθε web-based base |
 | **Bilingual ability** (GR + EN) | Native | Διπλή αγορά σε κάθε base |
 
@@ -94,7 +95,7 @@
 | **P7** | **Book Generation** *(guess: AI book drafter)* | Replit app | **#19 (direct — it IS one)**, #18 (SaaS writers' tool), #17 (novelist assistant agent) | low | Potentially the biggest unfair advantage σου για #19 — needs audit |
 | **P8** | **AniRec** *(guess: anime recommendation)* | Replit app | #14 (Chrome ext overlay σε streaming sites), #18 (niche SaaS), #19 (AI-driven rec engine) | medium | Recommendation logic + taste data |
 | **P9** | **weight-game** *(guess: fitness/weight tracker με gamification)* | Replit app | #13 (AI mobile app pivot), #18 (fitness niche SaaS) | high | ⚠️ Outside creative/narrative sphere — consider skipping entirely αν δεν έχει traction |
-| **P10** | **MD2** *(guess: markdown processor/renderer)* | Replit app | #10 (VS Code ext), #16 (desktop app), #15 (Raycast ext) | low | Parser/renderer logic portable |
+| ~~P10~~ | ~~MD2~~ *(clarified 2026-04: drafts folder με Seven Echoes πρώιμη μορφή — **όχι** standalone project, merged under P1)* | — | — | — | — |
 | **P11** | **Stack comfort** (React, TS, Vite, Zustand, Drizzle, Tailwind, Framer Motion, Web Audio API) | Transferable skill (not a project) | Enables #3-#5, #10-#20 (virtually every web-based base) | 0 | Not transformed — is the foundation |
 
 ### Per-project notes & traps
@@ -112,11 +113,11 @@
 ### Assets-to-path quick map
 
 - **Αν διαλέξεις Path A (Seven Echoes multimedia):** enable P1, P3, P4. Potentially P2 ως prologue game αν θέλεις.
-- **Αν διαλέξεις Path E (Pure tech/AI):** enable P2 (Nevar code shell), P7 (Book Gen foundation), P10 (MD2). Seven Echoes αναπαύεται.
+- **Αν διαλέξεις Path E (Pure tech/AI):** enable P2 (Nevar code shell), P7 (Book Gen foundation). Seven Echoes αναπαύεται.
 - **Αν διαλέξεις Path F (Hybrid #19 + #1):** enable P1, P3, P4, P5, **and crucially P7** (Book Generation as tool foundation). Αυτό είναι το path με το μεγαλύτερο project leverage.
 - **Αν διαλέξεις Path B (new standalone IP):** enable P11 (stack), potentially P2 (engine). Όλα τα Seven Echoes assets μένουν στο shelf (and that's fine).
-- **Αν διαλέξεις Path C (abstract tools):** enable P2, P10, P11. Νarrative assets ελάχιστα χρήσιμα.
-- **Αν διαλέξεις Path D (portfolio anchor + experiments):** ο anchor καθορίζει τα primary assets, τα experiments μπορούν να ανακυκλώσουν P5/P6/P8/P10.
+- **Αν διαλέξεις Path C (abstract tools):** enable P2, P11. Νarrative assets ελάχιστα χρήσιμα.
+- **Αν διαλέξεις Path D (portfolio anchor + experiments):** ο anchor καθορίζει τα primary assets, τα experiments μπορούν να ανακυκλώσουν P5/P6/P8.
 
 ### Assets you DON'T have (gap analysis)
 
@@ -729,6 +730,177 @@ Concrete gap analysis. Ώρες στο "need to learn" είναι estimates γι
 
 ---
 
+## 2026-04 RESEARCH ADDENDUM — Non-writing project proposals (21 ideas)
+
+> **Added 2026-04-09.** Το main plan είναι writer-skewed επειδή γράφτηκε για να αξιολογήσει αν θα επενδύσεις στη συγγραφή. Αυτός ο addendum καλύπτει το gap: concrete project proposals σε **non-writing domains**, με real 2026 traction data. **Target: global/EN market. Zero Greek-specific niches.** Οι ιδέες κάλυψαν 7 ομάδες: Chrome extensions, vertical AI agents, AI subscription mobile apps, non-narrative indie games, dev tools/Raycast/AI, audio/generative, και underexplored niches.
+
+**Τι ΔΕΝ είναι εδώ:** καμία fiction/novelist/writer/author tool (εξ ορισμού — για αυτά βλέπε Group 1 στο main plan).
+
+### Α — Chrome Extensions (solo dev sweet spot)
+
+**1. Visual Web Scraper Pro** — click-and-drag data extraction από οποιοδήποτε site, export σε CSV/JSON, one-time €29 license.
+*Traction:* Amie Chen's **Spider** έκανε **$10K σε 2 μήνες** με ακριβώς αυτό το model.
+*Effort · Revenue:* 80-120h · €1-5K/μήνα από one-time sales.
+*Source:* [ExtensionPay](https://extensionpay.com/articles/browser-extensions-make-money)
+
+**2. Auto Dark Mode με AI tuning** — per-site dark mode με Claude που tunes contrast/colors βάσει content type.
+*Traction:* **Night Eye** (απλό dark mode) βγάζει **$3.1K/μήνα steady** · AI layer = clear upgrade path.
+*Effort · Revenue:* 100-150h · €4/μήνα, €500-3K MRR.
+*Source:* [ExtensionPay](https://extensionpay.com/articles/browser-extensions-make-money)
+
+**3. AI PDF Annotator (right-click anywhere)** — σε οποιοδήποτε PDF, Claude extracts key points, builds outline, saves σε Notion/Obsidian.
+*Traction:* PDF tools named top AI wrapper category 2026.
+*Effort · Revenue:* 100-180h · €7/μήνα, €1-10K MRR.
+*Source:* [Creem AI SaaS Ideas 2026](https://www.creem.io/blog/ai-saas-ideas-making-money-2026)
+
+### Β — Vertical AI Agents (Gartner: 30% enterprise AI vertical by 2026)
+
+**4. Niche Helpdesk Agent** — trained σε συγκεκριμένο vertical (SaaS onboarding, e-commerce returns), integrates με Intercom/Zendesk.
+*Traction:* Vertical agents έχουν **3-5x higher retention** από horizontal, premium pricing.
+*Effort · Revenue:* 200-350h · €49-149/μήνα B2B, €5-30K MRR.
+*Source:* [Lindy Vertical AI Agents](https://www.lindy.ai/blog/vertical-ai-agents)
+
+**5. Research Radar Agent** — monitors competitor X threads, pricing pages, press releases → weekly Claude digest + alerts.
+*Traction:* "24/7 research analyst" named #1 AI agent category 2026.
+*Effort · Revenue:* 150-250h · €29-59/μήνα, €1-10K MRR.
+*Source:* [Presta 15 AI Agent Startup Ideas](https://wearepresta.com/ai-agent-startup-ideas-2026-15-profitable-opportunities-to-launch-now/)
+
+**6. Smart Rebooking Agent (travel)** — flight delayed → agent finds alternatives, rebooks βάσει user rules + loyalty accounts.
+*Traction:* Travel AI agents called out as "where speed and clarity win" (Lindy 2026).
+*Effort · Revenue:* 200-400h · Commission model ή €9/μήνα, €500-8K MRR.
+*Source:* [Lindy Vertical AI Agents](https://www.lindy.ai/blog/vertical-ai-agents)
+
+### Γ — AI Subscription Mobile Apps
+
+**7. AI Dream Journal με pattern recognition** — voice-log dream πρωί, Claude finds recurring themes/characters/emotions over weeks.
+*Traction:* AI journaling hot — **Stoic** ($4.99/μήνα, GPT-4), **Mindsera**, **Reflection** all growing. Dream niche underserved.
+*Effort · Revenue:* 150-300h · €4.99/μήνα, €1-10K MRR.
+*Source:* [LifeNote Best AI Journaling Apps 2026](https://blog.mylifenote.ai/the-8-best-ai-journaling-apps-in-2026/)
+
+**8. AI Habit Accountability (voice-first)** — daily 30sec voice check-in, AI reacts personally, builds motivation graph over time.
+*Traction:* Habit tracking proven market, voice-first + AI reaction = unique angle.
+*Effort · Revenue:* 200-350h · €6.99/μήνα, €2-15K MRR.
+*Source:* [LifeNote Self-Improvement Apps 2026](https://blog.mylifenote.ai/best-apps-for-personal-growth-2026/)
+
+**9. Task-Specific Focus Soundscapes** — select task type (code/design/admin), AI generates matching endless soundscape.
+*Traction:* **Endel** έχει **4M downloads**. Niche: task-aware generation = differentiator.
+*Effort · Revenue:* 120-200h · €4.99/μήνα, €500-5K MRR.
+*Source:* [Endel](https://endel.io)
+
+### Δ — Non-narrative indie games
+
+**10. Idle browser RPG (hand-drawn)** — Idle Iktah / Idle Pixel Fantasy template, ship σε 6 εβδομάδες.
+*Traction:* **Idle Pixel Fantasy** έβγαλε **$4.2K σε 5 μέρες** ως solo 6-week build.
+*Effort · Revenue:* 200-300h · Steam €4.99 ή free+ads, €2-20K total first year.
+*Source:* [GamesRadar Idle Pixel Fantasy](https://www.gamesradar.com/games/solo-dev-spends-6-weeks-making-a-short-free-game-accidentally-wins-the-steam-algorithm-and-makes-usd4-200-in-5-days-then-rushes-to-prepare-a-big-update-seems-the-people-liked-my-honesty-and-that-i-dont-have-any-hidden-costs/)
+
+**11. Daily Puzzle με viral loop** — Wordle/Blue Prince DNA, free daily puzzle, leaderboards, shareable results, pro tier.
+*Traction:* **Blue Prince** (solo puzzle dev) nominated GOTY 2026. Daily puzzle category validated.
+*Effort · Revenue:* 150-250h · €1.99/μήνα ad-free, €500-5K MRR αν hit social.
+*Source:* [ScreenRant 10 Solo Indie Developers 2026](https://screenrant.com/best-solo-dev-games-2026/)
+
+### Ε — Dev tools / Raycast / AI
+
+**12. Raycast Prompt Library Extension** — versioned prompts per project, team-shared, one-click run σε Claude/GPT.
+*Traction:* **AI Chat extensions** στο Raycast έχουν **195K downloads** — proven audience για AI tools.
+*Effort · Revenue:* 50-100h · €3-5/μήνα, €500-3K MRR.
+*Source:* [Raycast Extensions Downloads Ranking](https://github.com/WToa/raycast_extensions_by_downloads)
+
+**13. GitHub PR AI Reviewer (Chrome ext)** — inline AI review σε PR diffs, flags security/perf/style issues.
+*Traction:* Dev tool + AI wrapper category proven — **Chatbase** (solo founder) hit **$50K MRR σε μήνες**.
+*Effort · Revenue:* 100-150h · Freemium €10/μήνα, €1-10K MRR.
+*Source:* [WeAreFounders 30 Highest-Valued Solo Startups 2026](https://www.wearefounders.uk/the-30-highest-valued-solo-startups-of-2026/)
+
+**14. Niche automation platform (Zapier clone για local/specialized tools)** — specific verticals που δεν καλύπτει το Zapier.
+*Traction:* Explicit underserved gap στα **23 profitable niches** του SaaSify 2026.
+*Effort · Revenue:* 300-500h · €19-99/μήνα, €2-20K MRR.
+*Source:* [SaaSify 23 Profitable Micro-SaaS Niches](https://saasify.sh/23-profitable-micro-saas-niches-that-big-companies-ignore-in-2026-2/)
+
+### ΣΤ — Audio / generative / visual
+
+**15. AI Sleep Stories Generator** — Calm competitor, procedurally generated unique stories κάθε νύχτα με ElevenLabs voice.
+*Traction:* Sleep/relax music demand "**exponential** in 2026" (Soundverse).
+*Effort · Revenue:* 150-250h · €6.99/μήνα, €1-10K MRR.
+*Source:* [Soundverse AI Music for Meditation 2026](https://www.soundverse.ai/blog/article/ai-music-for-meditation-apps-1352)
+
+**16. Daily Generative Art Feed (web + print shop)** — Three.js/p5.js generates unique piece κάθε μέρα, auto-posts social, Etsy store for prints.
+*Traction:* Passive + compounding audience. Tyler Hobbs template established.
+*Effort · Revenue:* 80-150h setup · €200-2K/μήνα print sales + ad revenue.
+*Source:* [Creem AI SaaS Ideas 2026](https://www.creem.io/blog/ai-saas-ideas-making-money-2026)
+
+### Ζ — Niche / underexplored opportunities
+
+**17. Anime Watch Party (Chrome ext)** — Crunchyroll/Netflix sync με φίλους, Discord integration. Σαφές gap στην αγορά.
+*Traction:* Κανένα από τα top tracking apps (AniList, MyAnimeList) δεν έχει watch party feature.
+*Effort · Revenue:* 60-100h · Free + €3/μήνα premium, €200-2K MRR.
+*Source:* [MangaTime Best AniList Alternatives 2026](https://mangatime.net/articles/best-alternatives-to-anilist-for-manga-tracking/)
+
+**18. Niche vertical job board** — π.χ. "AI engineers for small business", "accessibility consultants", "remote devops for SMBs".
+*Traction:* **$250/post × dozens** = $5-50K/μήνα στα underserved verticals.
+*Effort · Revenue:* 80-150h · €250/post, €1-15K/μήνα με modest traffic.
+*Source:* [Lovable 10 Micro SaaS Ideas 2026](https://lovable.dev/guides/micro-saas-ideas-for-solopreneurs-2026)
+
+**19. Solo-practice review monitor (SMB)** — BrightLocal είναι $44/μήνα για multi-location, build simpler €15/μήνα για single-location.
+*Traction:* Explicit underserved gap στο **SaaSify 23 profitable niches** 2026.
+*Effort · Revenue:* 150-250h · €15/μήνα, €1-8K MRR.
+*Source:* [SaaSify 23 Profitable Micro-SaaS Niches](https://saasify.sh/23-profitable-micro-saas-niches-that-big-companies-ignore-in-2026-2/)
+
+**20. Content Repurposing Tool** — podcast/video → LinkedIn posts + newsletter + YT shorts + X threads με ένα click, AI-powered.
+*Traction:* "Content repurposing kills productivity" — explicit high-demand niche 2026.
+*Effort · Revenue:* 150-250h · €19-49/μήνα, €2-20K MRR.
+*Source:* [Greensighter 30 Micro SaaS Ideas 2026](https://www.greensighter.com/blog/micro-saas-ideas)
+
+### Η — Hidden gem (bonus)
+
+**21. Mental Health Practice Manager (ultra-simple)** — για independent therapists που απορρίπτουν complex multi-provider tools.
+*Traction:* Existing solutions "too complex for solo practice" — explicit gap (SaaSify 2026).
+*Effort · Revenue:* 250-400h · €29/μήνα, €2-15K MRR.
+*Source:* [SaaSify 23 Profitable Micro-SaaS Niches](https://saasify.sh/23-profitable-micro-saas-niches-that-big-companies-ignore-in-2026-2/)
+
+---
+
+### Addendum — Quick comparison matrix (non-writing proposals only)
+
+Ease: πόσο εύκολα solo ship · Revenue ceiling: ρεαλιστικό upside σε 12μ · Time-to-ship: ώρες για v0.1 · Moat: πόσο δύσκολο να αντιγραφεί.
+
+| # | Project | Domain | Ease | Revenue ceiling | Time-to-ship | Moat |
+|:-:|---|---|:-:|:-:|:-:|:-:|
+| 1 | Visual Web Scraper Pro | Chrome ext | **5** | 3 | 80-120h | 2 |
+| 2 | Auto Dark Mode + AI | Chrome ext | 4 | 3 | 100-150h | 3 |
+| 3 | AI PDF Annotator | Chrome ext | 4 | **5** | 100-180h | 3 |
+| 4 | Niche Helpdesk Agent | AI agent | 2 | **5** | 200-350h | **5** |
+| 5 | Research Radar Agent | AI agent | 3 | 4 | 150-250h | 3 |
+| 6 | Smart Rebooking Agent | AI agent | 2 | 4 | 200-400h | 4 |
+| 7 | AI Dream Journal | Mobile | 3 | 4 | 150-300h | 3 |
+| 8 | AI Habit Accountability | Mobile | 3 | **5** | 200-350h | 3 |
+| 9 | Task Focus Soundscapes | Mobile | 3 | 4 | 120-200h | 2 |
+| 10 | Idle browser RPG | Game | 4 | 3 | 200-300h | 2 |
+| 11 | Daily Puzzle viral | Game | 3 | 4 | 150-250h | 3 |
+| 12 | Raycast Prompt Library | Dev tool | **5** | 2 | 50-100h | 2 |
+| 13 | GitHub PR AI Reviewer | Dev tool | 3 | **5** | 100-150h | 3 |
+| 14 | Niche automation platform | Dev tool | 2 | **5** | 300-500h | **5** |
+| 15 | AI Sleep Stories | Audio | 3 | 4 | 150-250h | 3 |
+| 16 | Daily Generative Art | Visual | 4 | 2 | 80-150h | 2 |
+| 17 | Anime Watch Party | Niche | **5** | 2 | 60-100h | 2 |
+| 18 | Niche job board | SaaS | 3 | **5** | 80-150h | 4 |
+| 19 | Solo-practice review monitor | SaaS | 3 | 3 | 150-250h | 3 |
+| 20 | Content Repurposing Tool | SaaS | 3 | **5** | 150-250h | 3 |
+| 21 | Mental Health PM | SaaS | 2 | 4 | 250-400h | 4 |
+
+**Quick picks:**
+- **Fastest ship (≤100h):** #12 Raycast Prompt Library, #17 Anime Watch Party
+- **Highest ceiling:** #3 AI PDF Annotator, #4 Niche Helpdesk Agent, #8 AI Habit Accountability, #13 PR Reviewer, #14 Automation platform, #18 Niche job board, #20 Content Repurposing
+- **Strongest moat:** #4 Niche Helpdesk Agent, #14 Niche automation platform
+- **Portfolio combo suggestion:** #12 (quick warmup) → #17 (validates Chrome ext pipeline) → #13 (serious cashflow play)
+
+### Addendum — Ερωτήσεις για next pass
+
+1. Ποιες 3-5 από τις 21 σου προκαλούν instant reaction ("ναι, αυτό θα το έκανα");
+2. Υπάρχουν domains/τομείς όπου έχεις κάνει βαθιά δική σου ανάλυση που λείπουν εντελώς από αυτό το list; Πες μου να τα προσθέσω.
+3. ~~MD2~~ — clarified 2026-04: drafts folder για Seven Echoes πρώιμη μορφή, όχι standalone project. Ήδη καλυμμένο από P1.
+
+---
+
 ## Sources (full research trail)
 
 **Fiction / KDP**
@@ -794,3 +966,23 @@ Concrete gap analysis. Ώρες στο "need to learn" είναι estimates γι
 - [Raycast for Developers](https://www.raycast.com/developers)
 - [Raycast Developer Program](https://www.raycast.com/developer-program)
 - [15 Must-Have Raycast Extensions 2026 — AI Productivity](https://aiproductivity.ai/blog/raycast-extensions-developers/)
+- [Raycast Extensions by Downloads Ranking — GitHub WToa](https://github.com/WToa/raycast_extensions_by_downloads)
+
+**Non-writing research addendum (2026-04)**
+- [15 AI SaaS Ideas Making Money 2026 — Creem](https://www.creem.io/blog/ai-saas-ideas-making-money-2026)
+- [AI SaaS Solo Founder Success Stories 2026 — CrazyBurst](https://crazyburst.com/ai-saas-solo-founder-success-stories-2026/)
+- [30 Highest-Valued Solo Startups 2026 — WeAreFounders](https://www.wearefounders.uk/the-30-highest-valued-solo-startups-of-2026/)
+- [9 Best AI Journaling Apps 2026 — LifeNote](https://blog.mylifenote.ai/the-8-best-ai-journaling-apps-in-2026/)
+- [12 Best Self-Improvement Apps 2026 — LifeNote](https://blog.mylifenote.ai/best-apps-for-personal-growth-2026/)
+- [Top AI Mental Health Apps 2026 — MyFlourish](https://www.myflourish.ai/post/top-ai-mental-health-apps-2026)
+- [Stoic AI Journal](https://www.getstoic.com)
+- [Endel AI Soundscapes](https://endel.io)
+- [AI Music for Meditation Apps 2026 — Soundverse](https://www.soundverse.ai/blog/article/ai-music-for-meditation-apps-1352)
+- [Solo dev Idle Pixel Fantasy $4.2K in 5 days — GamesRadar](https://www.gamesradar.com/games/solo-dev-spends-6-weeks-making-a-short-free-game-accidentally-wins-the-steam-algorithm-and-makes-usd4-200-in-5-days-then-rushes-to-prepare-a-big-update-seems-the-people-liked-my-honesty-and-that-i-dont-have-any-hidden-costs/)
+- [10 Solo Indie Developers to Watch 2026 — ScreenRant](https://screenrant.com/best-solo-dev-games-2026/)
+- [Vertical AI Agents 2026 — Lindy](https://www.lindy.ai/blog/vertical-ai-agents)
+- [15 AI Agent Startup Ideas $1M+ 2026 — Presta](https://wearepresta.com/ai-agent-startup-ideas-2026-15-profitable-opportunities-to-launch-now/)
+- [23 Profitable Micro-SaaS Niches 2026 — SaaSify](https://saasify.sh/23-profitable-micro-saas-niches-that-big-companies-ignore-in-2026-2/)
+- [30 Micro SaaS Ideas Reddit 2026 — Greensighter](https://www.greensighter.com/blog/micro-saas-ideas)
+- [10 Micro SaaS Ideas Solopreneurs 2026 — Lovable](https://lovable.dev/guides/micro-saas-ideas-for-solopreneurs-2026)
+- [Best Alternatives to AniList Manga Tracking 2026 — MangaTime](https://mangatime.net/articles/best-alternatives-to-anilist-for-manga-tracking/)
