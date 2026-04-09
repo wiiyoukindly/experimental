@@ -5,7 +5,8 @@
 - [Context reset](#context-reset)
 - [TL;DR](#tldr--αν-διαβάσεις-μόνο-ένα-section)
 - [Τι υπάρχει ήδη στο οπλοστάσιο σου](#τι-υπαρχει-ηδη-στο-οπλοστασιο-σου)
-- [Project-to-base cross reference](#project-to-base-cross-reference-raw-materials-όχι-commands) *(μετά το Tier 4)*
+- [Project-to-base cross reference](#project-to-base-cross-reference-raw-materials-όχι-commands)
+- [Greek / bilingual market edge](#greek--bilingual-market-edge-context-add)
 - [Group 1 — Creative / Expression bases (#1–#12)](#group-1--creative--expression-bases-112)
 - [Group 2 — Utility / AI / App bases (#13–#20)](#group-2--utility--ai--app-bases-1320)
 - [Cross-categorization matrix](#cross-categorization-matrix)
@@ -69,6 +70,64 @@
 | **Replit apps portfolio** (ThesPlan, Book Generation, AniRec, weight-game, MD2, κ.ά.) | Tech foundation | Tech bases (#3-#5, #10-#11) |
 | **Stack comfort**: React, TS, Vite, Zustand, Drizzle, Tailwind, Framer Motion, Web Audio API | Proven στο ThesPlan/Nevar | Κάθε web-based base |
 | **Bilingual ability** (GR + EN) | Native | Διπλή αγορά σε κάθε base |
+
+---
+
+## PROJECT-TO-BASE CROSS REFERENCE (raw materials, όχι commands)
+
+Αυτή η section χαρτογραφεί κάθε υπάρχον project ως **πιθανό input** σε bases, χωρίς να καθιστά καμία base υποχρεωτική. Τα assets είναι raw materials: παρόντα, διαθέσιμα, διαχρονικά. Δεν σου επιβάλλουν path.
+
+> ⚠️ **Anti-pattern warning:** Το γεγονός ότι έχεις ένα project δεν σημαίνει ότι πρέπει να το συνεχίσεις. Αν η καρδιά σου είναι αλλού, τα assets μπορούν να μείνουν αναπαυμένα. Το cross-reference εδώ είναι για να **ενεργοποιείται** όταν διαλέγεις path, όχι να **επιβάλλεται** ως επιλογή. Sunk cost fallacy είναι ο κύριος εχθρός εδώ.
+
+**Note on accuracy:** Οι περιγραφές των Replit apps (P6-P10) είναι educated guesses βάσει ονομάτων. Παρακαλώ διόρθωσε αν κάτι είναι λάθος.
+
+### Project inventory
+
+| # | Project | State | Feeds into bases | Transformation cost | Reuse pattern |
+|:-:|---|---|---|---|---|
+| **P1** | **Seven Echoes novel** (EN + GR, 15 ch) | Publish-ready: EPUB, covers, KDP listing, paperback + hardcover PDFs, GR print-ready | #1 (direct), #2 (direct), #3-#5 (lore transplant), #9 (adaptation), #12 (natural fit) | 0 → high (ανάλογα target) | Full text, chapters, world, characters |
+| **P2** | **Nevar / Νέβαρ** (React noir game) | Playable MVP: 4 σκηνές, dialogue system, map | #3 (direct polish), #4 (port assets), #5 (stripped), shell για #16/#17/#19 | low → medium | React+Electron shell, dialogue engine, scene state machine |
+| **P3** | **Seven Echoes covers & art** | Final (paperback, hardcover, Cinematic/corridor stills) | Κάθε base που χρειάζεται visual identity (#9 motion comics direct benefit) | 0 | Finished raster/vector assets |
+| **P4** | **Project bible + voice guide** | Complete | #1, #2 (ElevenLabs voice cloning reference), #9, #12 (critical για voice consistency) | 0 | Reference doc, not transformed |
+| **P5** | **book-style.css** | Writer's own CSS για typesetting | #1 (direct), #16 (default theme σε desktop writers' app), #18 (sell ως premium template pack) | low | CSS file, directly shippable |
+| **P6** | **ThesPlan** *(guess: thesis/dissertation planner)* | Replit app | #14 (Chrome ext για academic workflow), #17 (AI thesis writing agent), #18 (academic niche SaaS) | medium | ⚠️ Confirm actual functionality before cross-referencing |
+| **P7** | **Book Generation** *(guess: AI book drafter)* | Replit app | **#19 (direct — it IS one)**, #18 (SaaS writers' tool), #17 (novelist assistant agent) | low | Potentially the biggest unfair advantage σου για #19 — needs audit |
+| **P8** | **AniRec** *(guess: anime recommendation)* | Replit app | #14 (Chrome ext overlay σε streaming sites), #18 (niche SaaS), #19 (AI-driven rec engine) | medium | Recommendation logic + taste data |
+| **P9** | **weight-game** *(guess: fitness/weight tracker με gamification)* | Replit app | #13 (AI mobile app pivot), #18 (fitness niche SaaS) | high | ⚠️ Outside creative/narrative sphere — consider skipping entirely αν δεν έχει traction |
+| **P10** | **MD2** *(guess: markdown processor/renderer)* | Replit app | #10 (VS Code ext), #16 (desktop app), #15 (Raycast ext) | low | Parser/renderer logic portable |
+| **P11** | **Stack comfort** (React, TS, Vite, Zustand, Drizzle, Tailwind, Framer Motion, Web Audio API) | Transferable skill (not a project) | Enables #3-#5, #10-#20 (virtually every web-based base) | 0 | Not transformed — is the foundation |
+
+### Per-project notes & traps
+
+**P1 Seven Echoes** — Ο lowest-hanging fruit στον planet. Publish-ready. Το **ερώτημα δεν είναι αν να το πουλήσεις**, είναι **ποιες adaptations να κάνεις**. Η απάντηση εξαρτάται από τις 8 questions + decision path. Trap: η ποικιλία των adaptations (audiobook, game, motion comic, audio drama) είναι seductive — κράτα scope tight σε 1-2 adaptations αλλιώς κανένα δεν θα γίνει.
+
+**P2 Nevar** — Η React+Electron shell είναι **πιο πολύτιμη** από το game content αν διαλέξεις utility path. Το dialogue engine είναι ready-to-port σε #17/#19 AI tools με minimal refactor. Trap: να νομίζεις ότι "πρέπει να τελειώσεις το game" επειδή είναι playable — αν διαλέξεις Path E/F utility, το Nevar μπορεί να μείνει στο shelf και να χρησιμοποιηθεί μόνο ο κώδικας του.
+
+**P7 Book Generation — ΣΗΜΑΝΤΙΚΟ, χρειάζεται audit.** Αν πράγματι κάνει ό,τι υποθέτω (AI book drafting), είναι 50-70% ήδη χτισμένο το #19 AI creative tool. Αυτό μετατρέπει το "Path F hybrid (#19 + #1)" από "start from scratch" σε "polish existing → ship". **Action item:** όταν ξεκινήσεις execution, πρώτη δουλειά είναι audit του P7 repo για να καταλάβεις τι υπάρχει ήδη.
+
+**P9 weight-game — legitimate skip candidate.** Είναι outside creative/narrative scope, δεν τροφοδοτεί καμία από τις top-ranked bases (Path F, E, A). Εκτός αν σε ενδιαφέρει ειδικά να κάνεις fitness app pivot (Path E variant), αυτό το project μπορεί να μείνει frozen. **Μην το forceάρεις.**
+
+**P6, P8, P10** — All have potential utility value αλλά χρειάζονται audit για να βγάλεις concrete judgement. Treat ως "optionality preserved" μέχρι να έχεις concrete plan.
+
+### Assets-to-path quick map
+
+- **Αν διαλέξεις Path A (Seven Echoes multimedia):** enable P1, P3, P4. Potentially P2 ως prologue game αν θέλεις.
+- **Αν διαλέξεις Path E (Pure tech/AI):** enable P2 (Nevar code shell), P7 (Book Gen foundation), P10 (MD2). Seven Echoes αναπαύεται.
+- **Αν διαλέξεις Path F (Hybrid #19 + #1):** enable P1, P3, P4, P5, **and crucially P7** (Book Generation as tool foundation). Αυτό είναι το path με το μεγαλύτερο project leverage.
+- **Αν διαλέξεις Path B (new standalone IP):** enable P11 (stack), potentially P2 (engine). Όλα τα Seven Echoes assets μένουν στο shelf (and that's fine).
+- **Αν διαλέξεις Path C (abstract tools):** enable P2, P10, P11. Νarrative assets ελάχιστα χρήσιμα.
+- **Αν διαλέξεις Path D (portfolio anchor + experiments):** ο anchor καθορίζει τα primary assets, τα experiments μπορούν να ανακυκλώσουν P5/P6/P8/P10.
+
+### Assets you DON'T have (gap analysis)
+
+Για να μη νομίσεις ότι το plan σου καλύπτει τα πάντα:
+- **Mailing list / newsletter subscribers** — δεν αναφέρεται πουθενά ότι έχεις. Αν όχι, είναι η μία μεγάλη "build from zero" asset για κάθε path.
+- **Published content/track record στο blog/YouTube/Twitter** — δεν υπάρχει signal στο plan. Αν δεν έχεις, το marketing σε οποιοδήποτε path θα είναι harder.
+- **Paying audience / past customers** — ισχύει το ίδιο. Κανείς δεν σου χρωστάει το πρώτο €.
+- **Design skills (για art-heavy bases #6, #7, #8)** — explicit gap.
+- **Non-React mobile stack (για #13 native feel)** — minor gap, React Native mitigates.
+
+Αυτό δεν είναι αρνητική κρίση — είναι transparent baseline. **Δεν έχεις "nothing", έχεις "a lot of raw materials and no distribution yet".**
 
 ---
 
