@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "description": "4 ranking modes. Each mode defines a weight vector over the 12 factors. Weights within a mode sum to 100. A project's final score for a mode is sum(factor_score * mode_weight) / 100, producing a 1.0-5.0 value that is then rescaled to 0-100 percent.",
+  "modes": {
+    "balanced": {
+      "name": "Balanced",
+      "description": "General-purpose ranking. Default. Best when you do not have a strong life-stage constraint.",
+      "weights": {
+        "demand_evidence": 14,
+        "build_effort": 12,
+        "technical_fit": 11,
+        "distribution_clarity": 10,
+        "asset_leverage": 10,
+        "time_to_first_revenue": 9,
+        "tam": 7,
+        "competition_density": 7,
+        "moat": 6,
+        "pricing_power": 5,
+        "differentiator": 5,
+        "operational_burden": 4
+      }
+    },
+    "cashflow": {
+      "name": "Cashflow",
+      "description": "Optimizes for the fastest first paid euro. Best when you need validation revenue as soon as possible.",
+      "weights": {
+        "time_to_first_revenue": 25,
+        "demand_evidence": 20,
+        "distribution_clarity": 15,
+        "build_effort": 15,
+        "technical_fit": 10,
+        "pricing_power": 10,
+        "tam": 5,
+        "competition_density": 0,
+        "asset_leverage": 0,
+        "moat": 0,
+        "differentiator": 0,
+        "operational_burden": 0
+      }
+    },
+    "learning": {
+      "name": "Learning",
+      "description": "Optimizes for skill acquisition and portfolio growth. Best when you are building skills for a career pivot or want to stretch into unfamiliar stacks.",
+      "weights": {
+        "differentiator": 15,
+        "moat": 15,
+        "build_effort": 15,
+        "technical_fit_inverted": 20,
+        "asset_leverage_inverted": 10,
+        "demand_evidence": 10,
+        "tam": 10,
+        "distribution_clarity": 5,
+        "time_to_first_revenue": 0,
+        "pricing_power": 0,
+        "competition_density": 0,
+        "operational_burden": 0
+      },
+      "_notes": "technical_fit_inverted and asset_leverage_inverted are computed as (6 - factor_score). This pushes scoring toward projects that require NEW skills and DON'T reuse existing assets, because the point is to grow."
+    },
+    "moat": {
+      "name": "Moat",
+      "description": "Optimizes for long-term defensibility. Best when you want to build a single defensible business rather than a portfolio.",
+      "weights": {
+        "moat": 25,
+        "differentiator": 20,
+        "competition_density": 15,
+        "asset_leverage": 15,
+        "pricing_power": 10,
+        "demand_evidence": 10,
+        "tam": 5,
+        "technical_fit": 0,
+        "build_effort": 0,
+        "distribution_clarity": 0,
+        "time_to_first_revenue": 0,
+        "operational_burden": 0
+      }
+    }
+  }
+}

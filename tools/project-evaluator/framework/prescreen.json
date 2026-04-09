@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "description": "5-question yes/no gate applied before full scoring. Cheap pre-filter for triaging large idea backlogs. 4-5 yes = full scoring, 2-3 yes = scoring with caution note, 0-1 yes = reject.",
+  "questions": [
+    {
+      "id": "q1_named_competitor",
+      "question": "Is there a named competitor with public revenue evidence?",
+      "rationale": "No named competitor = pure speculation. This is the single strongest predictor of shippable ideas.",
+      "pass_criteria": "The idea description or research sources cite a specific product by name with a specific revenue figure (MRR, ARR, total sales)."
+    },
+    {
+      "id": "q2_tam",
+      "question": "Is the total addressable market larger than $100M globally?",
+      "rationale": "Solo builders can live in niche markets, but $100M floor filters out truly tiny markets.",
+      "pass_criteria": "The target market (freelancers, designers, gamers, students, etc.) has more than ~1M global potential users."
+    },
+    {
+      "id": "q3_extends_existing",
+      "question": "Does this extend an existing app the user has already shipped?",
+      "rationale": "Asset leverage cuts cold-start time. v2 of something real ships 3-5x faster than something new.",
+      "pass_criteria": "The idea explicitly references an existing Replit app (AniRec, weight-game, ThesPlan, pacing-analyzer, etc.) or reuses a large portion of existing code/data."
+    },
+    {
+      "id": "q4_build_under_150h",
+      "question": "Can v0.1 ship in under 150 hours of effort?",
+      "rationale": "Part-time operators have ~20h/week; 150h = ~8 weeks to first shippable version. Longer risks stall.",
+      "pass_criteria": "The research data or honest estimate for v0.1 effort is <150h. Note: v0.1 = shippable with paying users, not 'finished'."
+    },
+    {
+      "id": "q5_platform_native_distribution",
+      "question": "Is there a platform-native distribution channel?",
+      "rationale": "Chrome Web Store, Figma Community, Raycast Store, Apple App Store, etc. provide built-in discovery that beats SEO alone.",
+      "pass_criteria": "The product could be listed in at least one platform-native store where users already search for tools of its type."
+    }
+  ],
+  "scoring": {
+    "5": {"verdict": "full_score", "label": "GO — run full 12-factor scoring, high-confidence candidate"},
+    "4": {"verdict": "full_score", "label": "GO — run full 12-factor scoring"},
+    "3": {"verdict": "score_with_caution", "label": "CAUTION — score but expect mid-range results, verify the missing criteria first"},
+    "2": {"verdict": "score_with_caution", "label": "CAUTION — score only if the two missing criteria have creative workarounds"},
+    "1": {"verdict": "reject", "label": "REJECT — only 1 of 5 criteria met, don't waste scoring time"},
+    "0": {"verdict": "reject", "label": "REJECT — no criteria met, this is not a real opportunity"}
+  }
+}

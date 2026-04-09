@@ -1,0 +1,15 @@
+{
+  "name": "project-evaluator",
+  "version": "0.1.0",
+  "description": "AI-native project idea evaluator. Scores a list of project ideas against a 12-factor weighted framework and produces ranked recommendations under 4 different lenses (Balanced, Cashflow, Learning, Moat). Uses your existing Claude Code session, so Pro/Max subscription quota is inherited and no separate API key is required.",
+  "keywords": [
+    "prioritization",
+    "evaluation",
+    "idea-scoring",
+    "rice",
+    "solo-founder",
+    "indie-hacker",
+    "decision-support"
+  ],
+  "license": "MIT"
+}

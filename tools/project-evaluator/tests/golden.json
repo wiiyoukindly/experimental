@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "description": "Golden-set calibration ideas with expected score bands. The calibration.mjs script scores these and verifies the result falls within the expected band. This is a regression test for the framework weights and aggregation math — it does NOT test the LLM scoring itself, it uses pre-computed factor_scores that represent what a correctly-calibrated scorer should produce.",
+  "ideas": [
+    {
+      "id": 9001,
+      "title": "Photoshop clone (web-based)",
+      "group_letter": "TEST",
+      "group_name": "calibration",
+      "description": "A browser-based photo editor competing with Photoshop, Figma, Canva. Full layer system, filters, effects, export to multiple formats.",
+      "expected_factor_scores": {
+        "demand_evidence": 3,
+        "build_effort": 1,
+        "technical_fit": 2,
+        "distribution_clarity": 2,
+        "asset_leverage": 1,
+        "time_to_first_revenue": 1,
+        "tam": 5,
+        "competition_density": 1,
+        "moat": 1,
+        "pricing_power": 2,
+        "differentiator": 1,
+        "operational_burden": 2
+      },
+      "expected_red_flags": ["category_king_exists", "no_distribution_channel"],
+      "expected_balanced_band": [20, 45]
+    },
+    {
+      "id": 9002,
+      "title": "AniRec v2 (mood-aware anime recommender)",
+      "group_letter": "TEST",
+      "group_name": "calibration",
+      "description": "Upgrade of the user's existing AniRec Replit app. Subjective mood queries with Claude, MyAnimeList OAuth, €3-5/month freemium.",
+      "expected_factor_scores": {
+        "demand_evidence": 3,
+        "build_effort": 4,
+        "technical_fit": 5,
+        "distribution_clarity": 3,
+        "asset_leverage": 5,
+        "time_to_first_revenue": 3,
+        "tam": 3,
+        "competition_density": 4,
+        "moat": 3,
+        "pricing_power": 2,
+        "differentiator": 3,
+        "operational_burden": 4
+      },
+      "expected_red_flags": [],
+      "expected_balanced_band": [55, 80]
+    },
+    {
+      "id": 9003,
+      "title": "Generic SMS gateway wrapper",
+      "group_letter": "TEST",
+      "group_name": "calibration",
+      "description": "A wrapper around Twilio SMS API with nice UI. €5/month. Anyone can build it in a weekend.",
+      "expected_factor_scores": {
+        "demand_evidence": 2,
+        "build_effort": 5,
+        "technical_fit": 4,
+        "distribution_clarity": 2,
+        "asset_leverage": 1,
+        "time_to_first_revenue": 3,
+        "tam": 2,
+        "competition_density": 1,
+        "moat": 1,
+        "pricing_power": 2,
+        "differentiator": 1,
+        "operational_burden": 3
+      },
+      "expected_red_flags": [],
+      "expected_balanced_band": [25, 55]
+    },
+    {
+      "id": 9004,
+      "title": "Chrome extension — bookmark dedupe",
+      "group_letter": "TEST",
+      "group_name": "calibration",
+      "description": "Simple Chrome extension that finds and removes duplicate bookmarks. One-time €4 license. Ships in 40 hours.",
+      "expected_factor_scores": {
+        "demand_evidence": 3,
+        "build_effort": 5,
+        "technical_fit": 5,
+        "distribution_clarity": 4,
+        "asset_leverage": 2,
+        "time_to_first_revenue": 5,
+        "tam": 2,
+        "competition_density": 3,
+        "moat": 1,
+        "pricing_power": 2,
+        "differentiator": 2,
+        "operational_burden": 5
+      },
+      "expected_red_flags": [],
+      "expected_balanced_band": [55, 75]
+    },
+    {
+      "id": 9005,
+      "title": "B2B healthcare record management system",
+      "group_letter": "TEST",
+      "group_name": "calibration",
+      "description": "Full EHR for small clinics. HIPAA-compliant. $299/month/user. Long sales cycle, committee buying.",
+      "expected_factor_scores": {
+        "demand_evidence": 4,
+        "build_effort": 1,
+        "technical_fit": 2,
+        "distribution_clarity": 2,
+        "asset_leverage": 1,
+        "time_to_first_revenue": 1,
+        "tam": 5,
+        "competition_density": 3,
+        "moat": 3,
+        "pricing_power": 5,
+        "differentiator": 2,
+        "operational_burden": 1
+      },
+      "expected_red_flags": ["b2b_enterprise_sales", "regulatory_compliance"],
+      "expected_balanced_band": [20, 50]
+    }
+  ]
+}
