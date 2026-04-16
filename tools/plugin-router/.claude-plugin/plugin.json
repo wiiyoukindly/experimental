@@ -1,0 +1,14 @@
+{
+  "name": "plugin-router",
+  "version": "0.1.0",
+  "description": "Smart plugin profile router for Claude Code. Manages which plugins are enabled per session via named profiles (core, frontend, backend-aws, research, writing, etc.), so you only pay the context-cost for what you actually use. Exposes a single /router command with subcommands: status, list, analyze, switch, pending, save, core, learn.",
+  "keywords": [
+    "plugin-management",
+    "profiles",
+    "context-optimization",
+    "session-router",
+    "token-cost",
+    "productivity"
+  ],
+  "license": "MIT"
+}

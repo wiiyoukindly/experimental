@@ -1,18 +1,33 @@
 #!/usr/bin/env node
 /**
- * install-locally.js — register plugin-router as a permanent local plugin.
+ * install-locally.js — alt-path install via directory junction.
+ *
+ * ⚠️  PREFER `/plugin marketplace add` + `/plugin install` FOR NORMAL USE.
+ *
+ * This script is intended for two cases only:
+ *   1. Iterating on the plugin source — edits in the repo folder apply
+ *      immediately (no re-copy), because this installs via symlink/junction.
+ *   2. Offline / proxy-restricted environments where `/plugin marketplace add
+ *      wiiyoukindly/experimental` cannot reach GitHub.
+ *
+ * It manipulates Claude Code's internal plugin state files directly
+ * (known_marketplaces.json, installed_plugins.json, settings.json). If
+ * Anthropic changes the schema of these files, this script will break until
+ * it is updated. The supported `/plugin install` command is robust to those
+ * changes — use it unless you need one of the two cases above.
  *
  * Performs a 5-step install:
  *   1. Create cache parent dir (~/.claude/plugins/cache/local/plugin-router/)
  *   2. Create a directory junction at .../0.1.0/ pointing to this repo
- *      (so edits in the desktop folder apply immediately — no re-copy)
  *   3. Create a minimal local marketplace dir + marketplace.json
  *   4. Register "local" marketplace in known_marketplaces.json
  *   5. Add plugin-router@local to installed_plugins.json AND settings.json
  *
  * After running, the user must RESTART Claude Code for the plugin to load.
  *
- * Safe to re-run: each step is idempotent.
+ * Safe to re-run: each step is idempotent. Safe on fresh Claude Code installs:
+ * if known_marketplaces.json / installed_plugins.json / settings.json don't
+ * yet exist, they are initialised with empty objects.
  */
 'use strict';
 
@@ -42,6 +57,21 @@ function atomicWriteJson(filePath, obj) {
   const tmp = filePath + '.tmp';
   fs.writeFileSync(tmp, JSON.stringify(obj, null, 2) + '\n');
   fs.renameSync(tmp, filePath);
+}
+
+/**
+ * Read a JSON file, initialising it with `initial` if it doesn't exist yet.
+ * This handles fresh Claude Code installs where known_marketplaces.json and
+ * installed_plugins.json have not been created by any previous /plugin
+ * install. Parent directories are created as needed.
+ */
+function readOrInitJson(filePath, initial) {
+  if (fs.existsSync(filePath)) {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  }
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  atomicWriteJson(filePath, initial);
+  return initial;
 }
 
 console.log('=== plugin-router permanent install ===');
@@ -98,7 +128,7 @@ console.log(`      wrote ${path.join(MARKETPLACE_DIR, '.claude-plugin', 'marketp
 // ─── Step 4: known_marketplaces.json ───────────────────────────────────
 console.log('[4/5] Register "local" in known_marketplaces.json');
 const kmPath = path.join(PLUGINS_DIR, 'known_marketplaces.json');
-const km = JSON.parse(fs.readFileSync(kmPath, 'utf8'));
+const km = readOrInitJson(kmPath, {});
 const wasNew = !km[MARKETPLACE_NAME];
 km[MARKETPLACE_NAME] = {
   source: {
@@ -114,7 +144,7 @@ console.log(`      ${wasNew ? 'added' : 'updated'} "${MARKETPLACE_NAME}" marketp
 // ─── Step 5a: installed_plugins.json ───────────────────────────────────
 console.log('[5/5] Register plugin + enable in settings');
 const ipPath = path.join(PLUGINS_DIR, 'installed_plugins.json');
-const ip = JSON.parse(fs.readFileSync(ipPath, 'utf8'));
+const ip = readOrInitJson(ipPath, { plugins: {} });
 if (!ip.plugins) ip.plugins = {};
 const now = new Date().toISOString();
 ip.plugins[PLUGIN_ID] = [
@@ -131,7 +161,7 @@ console.log(`      added ${PLUGIN_ID} to installed_plugins.json`);
 
 // ─── Step 5b: settings.json ────────────────────────────────────────────
 const settingsPath = path.join(CLAUDE, 'settings.json');
-const s = JSON.parse(fs.readFileSync(settingsPath, 'utf8'));
+const s = readOrInitJson(settingsPath, {});
 if (!s.enabledPlugins) s.enabledPlugins = {};
 const wasEnabled = s.enabledPlugins[PLUGIN_ID] === true;
 s.enabledPlugins[PLUGIN_ID] = true;

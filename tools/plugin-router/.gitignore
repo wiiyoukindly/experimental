@@ -1,0 +1,14 @@
+# Local plugin-router state. Created when the CLI runs outside Claude Code's
+# real CLAUDE_PLUGIN_DATA dir (smoke tests, direct node invocations).
+.cache/
+custom-profiles/
+usage-log.jsonl
+pending-profile.json
+active-profile
+settings.lastgood.json
+lock
+session-seen/
+
+# Node
+node_modules/
+npm-debug.log*
