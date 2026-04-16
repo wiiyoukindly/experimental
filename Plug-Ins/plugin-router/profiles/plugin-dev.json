@@ -1,0 +1,16 @@
+{
+  "description": "Plugin development: building Claude Code plugins, skills, hooks, agents, MCP servers.",
+  "enable": [
+    "remember@claude-plugins-official",
+    "commit-commands@claude-plugins-official",
+    "claude-md-management@claude-plugins-official",
+    "hookify@claude-plugins-official",
+    "plugin-dev@claude-plugins-official",
+    "skill-creator@claude-plugins-official",
+    "agent-sdk-dev@claude-plugins-official",
+    "mcp-server-dev@claude-plugins-official",
+    "ai-plugins@claude-plugins-official",
+    "code-review@claude-plugins-official"
+  ],
+  "note": "No MCP-heavy plugins — plugin development rarely needs live browser or external APIs. If you're building an MCP server that wraps an external API, consider switching to a profile that includes that API's MCP."
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Core: always-on baseline. Memory, git, docs hygiene, hook guardrails.",
+  "enable": [
+    "remember@claude-plugins-official",
+    "commit-commands@claude-plugins-official",
+    "claude-md-management@claude-plugins-official",
+    "hookify@claude-plugins-official"
+  ],
+  "note": "This set is the baseline every other built-in profile includes. Edit via /router core add|remove to propagate across all profiles."
+}

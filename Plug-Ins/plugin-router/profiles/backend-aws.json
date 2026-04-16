@@ -1,0 +1,15 @@
+{
+  "description": "Backend on AWS: Lambda + SAM/CDK + API Gateway + DynamoDB + serverless tooling.",
+  "enable": [
+    "remember@claude-plugins-official",
+    "commit-commands@claude-plugins-official",
+    "claude-md-management@claude-plugins-official",
+    "hookify@claude-plugins-official",
+    "aws-serverless@claude-plugins-official",
+    "typescript-lsp@claude-plugins-official",
+    "code-review@claude-plugins-official",
+    "code-simplifier@claude-plugins-official",
+    "context7@claude-plugins-official"
+  ],
+  "note": "Keeps aws-serverless (which ships an MCP server for SAM/CDK operations) and context7 for docs lookups. Drops all browser/UI plugins."
+}

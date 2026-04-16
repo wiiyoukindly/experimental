@@ -1,0 +1,13 @@
+{
+  "description": "Research & evaluation: comparing ideas, scoring projects, prioritization frameworks.",
+  "enable": [
+    "remember@claude-plugins-official",
+    "commit-commands@claude-plugins-official",
+    "claude-md-management@claude-plugins-official",
+    "hookify@claude-plugins-official",
+    "project-evaluator@wiiyoukindly-experimental",
+    "math-olympiad@claude-plugins-official",
+    "context7@claude-plugins-official"
+  ],
+  "note": "Uses the project-evaluator plugin for 12-factor scoring and math-olympiad for rigorous reasoning. Add or remove depending on whether you need quantitative analysis."
+}

@@ -1,0 +1,12 @@
+{
+  "description": "Writing: blog posts, documentation, READMEs, essays. Focus on clarity and output styling.",
+  "enable": [
+    "remember@claude-plugins-official",
+    "commit-commands@claude-plugins-official",
+    "claude-md-management@claude-plugins-official",
+    "hookify@claude-plugins-official",
+    "explanatory-output-style@claude-plugins-official",
+    "learning-output-style@claude-plugins-official"
+  ],
+  "note": "Intentionally small set. The two output-style plugins shape how responses are formatted. Add context7 if you're writing technical docs that need library lookups."
+}

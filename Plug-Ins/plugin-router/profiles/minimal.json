@@ -1,0 +1,9 @@
+{
+  "description": "Minimal: the smallest useful set — same as core. Good for quick tasks and diagnosing plugin interference.",
+  "enable": [
+    "remember@claude-plugins-official",
+    "commit-commands@claude-plugins-official",
+    "claude-md-management@claude-plugins-official",
+    "hookify@claude-plugins-official"
+  ]
+}

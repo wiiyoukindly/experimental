@@ -1,0 +1,14 @@
+{
+  "description": "Browser automation: Playwright, Chrome DevTools, scraping, E2E testing.",
+  "enable": [
+    "remember@claude-plugins-official",
+    "commit-commands@claude-plugins-official",
+    "claude-md-management@claude-plugins-official",
+    "hookify@claude-plugins-official",
+    "playwright@claude-plugins-official",
+    "chrome-devtools-mcp@claude-plugins-official",
+    "typescript-lsp@claude-plugins-official",
+    "code-review@claude-plugins-official"
+  ],
+  "note": "Loads both playwright and chrome-devtools-mcp (two MCP-heavy plugins) because this profile exists specifically to use them. Everything else is dropped to offset the cost."
+}

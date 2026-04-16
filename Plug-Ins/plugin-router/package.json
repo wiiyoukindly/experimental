@@ -1,0 +1,9 @@
+{
+  "name": "plugin-router",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart plugin profile router for Claude Code",
+  "engines": {
+    "node": ">=18"
+  }
+}
