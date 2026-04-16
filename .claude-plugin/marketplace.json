@@ -7,6 +7,21 @@
   },
   "plugins": [
     {
+      "name": "plugin-router",
+      "description": "Smart plugin profile router for Claude Code. Enable only the plugins you need per session via named profiles — cuts 30-50k of startup context tokens when you have many plugins installed. Provides /router status|list|analyze|switch|pending|save|core|learn subcommands.",
+      "category": "productivity",
+      "source": "./tools/plugin-router",
+      "homepage": "https://github.com/wiiyoukindly/experimental/tree/main/tools/plugin-router",
+      "keywords": [
+        "plugin-management",
+        "profiles",
+        "context-optimization",
+        "session-router",
+        "token-cost",
+        "productivity"
+      ]
+    },
+    {
       "name": "project-evaluator",
       "description": "AI-native project idea evaluator. Ranks project ideas against a 12-factor weighted framework (Demand Evidence, Build Effort, Technical Fit, Distribution Clarity, Asset Leverage, Time-to-First-Revenue, TAM, Competition Density, Moat, Pricing Power, Differentiator, Operational Burden) under 4 ranking modes (Balanced, Cashflow, Learning, Moat). Uses your existing Claude Code session — no separate API key required for Pro/Max/Team subscribers.",
       "category": "productivity",
@@ -20,21 +35,6 @@
         "solo-founder",
         "indie-hacker",
         "decision-support"
-      ]
-    },
-    {
-      "name": "plugin-router",
-      "description": "Smart plugin profile router for Claude Code. Enable only the plugins you need per session via named profiles — cuts 30-50k of startup context tokens when you have many plugins installed. Provides /router status|list|analyze|switch|pending|save|core|learn subcommands.",
-      "category": "productivity",
-      "source": "./tools/plugin-router",
-      "homepage": "https://github.com/wiiyoukindly/experimental/tree/main/tools/plugin-router",
-      "keywords": [
-        "plugin-management",
-        "profiles",
-        "context-optimization",
-        "session-router",
-        "token-cost",
-        "productivity"
       ]
     }
   ]
