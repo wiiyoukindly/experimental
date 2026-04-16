@@ -80,7 +80,7 @@ Do not edit built-in profiles directly in the repo — they will be overwritten 
 
 `/router analyze [prompt]` ranks profiles by matching:
 
-- **cwd signals** — files under the current directory (`package.json` → frontend/node; `Cargo.toml` → rust; `.aws-sam/` → backend-aws; `*.md` in `plans/` or `drafts/` → writing; etc.)
+- **cwd signals** — files under the current directory (`package.json` → frontend/node; `Cargo.toml` → rust; `.aws-sam/` → backend-aws; markdown-heavy directories with no code → writing; etc.)
 - **prompt tokens** — the optional first-prompt text, if provided
 - **recent usage** — if `usage-log.jsonl` exists, recently-used profiles get a small boost
 

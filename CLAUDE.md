@@ -17,9 +17,6 @@ tools/
   plugin-router/                   # Plugin: per-session plugin profile router
     .claude-plugin/plugin.json
     commands/ hooks/ profiles/ scripts/ docs/ tests/
-plans/                             # Datestamped planning/research notes
-projects/                          # Standalone in-progress project code
-drafts/                            # Scratch notes
 scripts/
   validate-marketplace.mjs         # Validate the root marketplace manifest
 ```

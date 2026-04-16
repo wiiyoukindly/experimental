@@ -161,4 +161,6 @@ MIT.
 
 ## Why I built this
 
-The context behind this project is in `plans/2026-04-09_creative-base-menu.md` in the same repo. Short version: I had 42 project ideas in a markdown file and could not decide which to build next. The framework I designed to answer that question became the framework this plugin now applies. The plugin is itself one of the 42 ideas — the meta pick that answers the question by automating the answer to the question.
+Short version: I had 42 project ideas in a markdown file and could not decide which to build next. The framework I designed to answer that question became the framework this plugin now applies. The plugin is itself one of the 42 ideas — the meta pick that answers the question by automating the answer to the question.
+
+See [`example/sample-output-balanced.md`](example/sample-output-balanced.md) for the actual ranked output of that first 42-idea run.
