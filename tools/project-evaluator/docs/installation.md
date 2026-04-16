@@ -8,40 +8,44 @@
 - Node.js 18+ (for the scripts the plugin calls via Bash)
 - An active Claude Pro, Max, Team, or Enterprise subscription — OR an Anthropic API key configured in Claude Code
 
-## Installation (phase 1 — local)
+## Installation
 
-In phase 1, the plugin lives inside the `wiiyoukindly/experimental` repo at `tools/project-evaluator/`. To install it for local use:
+The `wiiyoukindly/experimental` repo exposes a Claude Code **marketplace** at its root (`.claude-plugin/marketplace.json`). Installation happens inside a Claude Code session via two slash commands.
 
-### Option A — Clone and point Claude Code at it
+### Option A — Install from GitHub (recommended)
+
+Inside any Claude Code session, run:
+
+```
+/plugin marketplace add wiiyoukindly/experimental
+/plugin install project-evaluator@wiiyoukindly-experimental
+```
+
+That's it. The plugin is now enabled for all your Claude Code sessions. The three slash commands (`/evaluate-projects`, `/prescreen`, `/compare-projects`) appear on next prompt.
+
+### Option B — Install from a local clone
+
+If you've already cloned the repo locally:
 
 ```bash
-# Clone the repo
 git clone https://github.com/wiiyoukindly/experimental.git ~/code/experimental
-
-# Tell Claude Code about the plugin
-# (exact mechanism depends on your Claude Code version — see /plugins docs)
-claude code --add-plugin ~/code/experimental/tools/project-evaluator
 ```
 
-### Option B — Symlink into your plugins directory
+Then inside Claude Code:
 
-```bash
-ln -s ~/code/experimental/tools/project-evaluator ~/.claude/plugins/project-evaluator
+```
+/plugin marketplace add ~/code/experimental
+/plugin install project-evaluator@wiiyoukindly-experimental
 ```
 
-### Option C — Run directly from the repo
+Using a local path means your edits to the plugin source take effect immediately — useful if you're iterating on the framework weights or scripts.
 
-If you already work inside the `experimental` repo in Claude Code, the plugin is discovered automatically by setting the plugin root in your Claude Code settings:
+### Managing the plugin afterwards
 
-```json
-{
-  "plugins": {
-    "path": "./tools"
-  }
-}
-```
-
-Restart Claude Code. The three slash commands (`/evaluate-projects`, `/prescreen`, `/compare-projects`) should now appear.
+- `/plugin` — open the interactive plugin menu
+- `/plugin list` — show installed plugins and which marketplace they came from
+- `/plugin uninstall project-evaluator@wiiyoukindly-experimental` — remove it
+- `/plugin marketplace update wiiyoukindly-experimental` — pull the latest version
 
 ## Verify installation
 

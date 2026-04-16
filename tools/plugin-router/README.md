@@ -3,6 +3,19 @@
 A Claude Code plugin that manages which other plugins are enabled per session,
 so you only pay the context-cost for plugins you actually need.
 
+## Install
+
+Inside any Claude Code session:
+
+```
+/plugin marketplace add wiiyoukindly/experimental
+/plugin install plugin-router@wiiyoukindly-experimental
+```
+
+Restart Claude Code once after install so the SessionStart hook picks up.
+
+> The repo also ships an `install-locally.js` script that wires things up by hand (junction into the cache dir, edit to `known_marketplaces.json` / `installed_plugins.json` / `settings.json`). Prefer the `/plugin` commands above — they do the same thing through the supported API and won't break if Anthropic changes the internal file layout.
+
 ## Why
 
 Claude Code loads all enabled plugins at session start. Every plugin adds

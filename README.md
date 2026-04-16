@@ -2,6 +2,18 @@
 
 Experimental workspace for plans, research, tools, and exploratory work co-authored with Claude Code.
 
+## Install the plugins
+
+This repo exposes a Claude Code **marketplace** at its root. Inside any Claude Code session:
+
+```
+/plugin marketplace add wiiyoukindly/experimental
+/plugin install project-evaluator@wiiyoukindly-experimental
+/plugin install plugin-router@wiiyoukindly-experimental
+```
+
+Both plugins install from the same marketplace. Pick whichever you need (or both).
+
 ## What lives here
 
 ### `tools/project-evaluator/` — AI-native project idea evaluator
@@ -24,6 +36,14 @@ The plugin takes a markdown file of ideas + a YAML profile (your stack, existing
 **Phase 1.5 (planned)**: a GitHub Action wrapper that reuses the same `framework/` + `scripts/` shared core, letting non-Claude-Code users invoke the same evaluation via CI/CD with their own API keys. See [`tools/project-evaluator/docs/roadmap.md`](tools/project-evaluator/docs/roadmap.md).
 
 Full docs: [`tools/project-evaluator/README.md`](tools/project-evaluator/README.md) · [framework explanation](tools/project-evaluator/docs/framework.md) · [installation](tools/project-evaluator/docs/installation.md).
+
+### `tools/plugin-router/` — per-session plugin profile router
+
+A **Claude Code plugin** that manages which *other* plugins are enabled per session via named profiles (core, frontend, backend-aws, research, writing, plugin-dev, minimal, …). Built to solve a concrete problem: when you have 30+ plugins installed, every session burns 30-50k tokens on system prompts, skill descriptions, agent definitions, and MCP tool schemas — even for plugins you don't touch.
+
+`plugin-router` exposes a single `/router` command with subcommands: `status`, `list`, `analyze`, `switch`, `pending`, `save`, `core`, `learn`. Profile changes require a Claude Code restart (the plugin list is read only at session start), but the plugin hardens that restart via atomic writes, pending-profile queuing, and last-known-good snapshots.
+
+Full docs: [`tools/plugin-router/README.md`](tools/plugin-router/README.md).
 
 ### `plans/` — Claude Code planning documents
 
